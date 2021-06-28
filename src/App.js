@@ -1,10 +1,14 @@
-
-import './App.css';
+// import './App.css';
 import { getMatches } from './api';
+import Playoff from './components/Playoff/Playoff';
 
 function App() {
   // getMatches('FINISHED');
-  return <div className="App"></div>;
+  return (
+    <div>
+      <Playoff />
+    </div>
+  );
 }
 
 export default App;
