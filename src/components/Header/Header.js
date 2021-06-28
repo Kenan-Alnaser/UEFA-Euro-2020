@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <React.Fragment>
       {logo}
-      <Navbar />
+      <Navbar id="home" />
     </React.Fragment>
   );
 };
