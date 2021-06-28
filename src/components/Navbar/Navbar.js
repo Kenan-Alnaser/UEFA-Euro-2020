@@ -3,8 +3,12 @@ import Data from "../../menu.json";
 
 const Navbar = () => {
   const navMenu = Data.map((obj) => {
-    const { id, name } = obj;
-    return <li key={id}>{name}</li>;
+    const { id, name, target } = obj;
+    return (
+      <li key={id}>
+        <a href={target}>{name}</a>
+      </li>
+    );
   });
 
   return (
