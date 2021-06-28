@@ -2,12 +2,16 @@ import React from 'react';
 import Header from './components/Header/Header';
 import Groups from './components/Groups/Groups';
 import { getMatches } from './api';
+import Logo from './logo.json';
 
 function App() {
-  // getMatches('FINISHED');
+  const logo = Logo.map((obj) => {
+    const { id, logo } = obj;
+    return <img key={id} className="logo" alt="logo" src={logo}></img>;
+  });
   return (
     <React.Fragment>
-      <Header />
+      <Header logo={logo} />
       <Groups />
     </React.Fragment>
   );

@@ -1,12 +1,7 @@
-import React from "react";
-import Navbar from "../Navbar/Navbar";
-import Logo from "../../logo.json";
+import React from 'react';
+import Navbar from '../Navbar/Navbar';
 
-const Header = () => {
-  const logo = Logo.map((obj) => {
-    const { id, logo } = obj;
-    return <img key={id} className="logo" alt="logo" src={logo}></img>;
-  });
+const Header = ({ logo }) => {
   return (
     <React.Fragment>
       {logo}
