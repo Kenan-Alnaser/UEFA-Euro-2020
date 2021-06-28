@@ -8,5 +8,35 @@
     "goals recived": 0,
     "score": 9,
     "group": "Group A"
+  },
+  {
+    "id": 1,
+    "team": "Wales",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/WAL.png?imwidth=158",
+    "games": 3,
+    "goals scored": 1,
+    "goals recived": 0,
+    "score": 4,
+    "group": "Group A"
+  },
+  {
+    "id": 2,
+    "team": "Switzerland",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/SUI.png?imwidth=158",
+    "games": 3,
+    "goals scored": 0,
+    "goals recived": 1,
+    "score": 4,
+    "group": "Group A"
+  },
+  {
+    "id": 3,
+    "team": "Turkey",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/TUR.png?imwidth=158",
+    "games": 3,
+    "goals scored": 0,
+    "goals recived": 7,
+    "score": 0,
+    "group": "Group A"
   }
 ]
