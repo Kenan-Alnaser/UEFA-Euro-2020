@@ -1,6 +1,5 @@
 import axios from 'axios';
 import dotenv from 'dotenv';
-
 import { base_url } from './constants';
 
 dotenv.config();
