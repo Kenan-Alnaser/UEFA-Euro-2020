@@ -78,5 +78,45 @@
     "goals recived": 5,
     "score": 3,
     "group": "Group B"
+  },
+  {
+    "id": 8,
+    "team": "Netherlands",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/NED.png?imwidth=158",
+    "games": 3,
+    "goals scored": 6,
+    "goals recived": 0,
+    "score": 9,
+    "group": "Group C"
+  },
+  {
+    "id": 9,
+    "team": "Austria",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/AUT.png?imwidth=158",
+    "games": 3,
+    "goals scored": 1,
+    "goals recived": 0,
+    "score": 6,
+    "group": "Group C"
+  },
+  {
+    "id": 10,
+    "team": "Ukraine",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/UKR.png?imwidth=158",
+    "games": 3,
+    "goals scored": 0,
+    "goals recived": 1,
+    "score": 3,
+    "group": "Group C"
+  },
+  {
+    "id": 11,
+    "team": "North Macedonia",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/MKD.png?imwidth=158",
+    "games": 3,
+    "goals scored": 0,
+    "goals recived": 6,
+    "score": 0,
+    "group": "Group C"
   }
 ]
