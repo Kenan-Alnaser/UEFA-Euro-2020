@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import Groups from './components/Groups/Groups';
+import Footer from './components/Footer/Footer';
 import { getMatches } from './api';
 import Logo from './logo.json';
 
@@ -13,6 +14,7 @@ function App() {
     <React.Fragment>
       <Header logo={logo} />
       <Groups />
+      <Footer />
     </React.Fragment>
   );
 }
