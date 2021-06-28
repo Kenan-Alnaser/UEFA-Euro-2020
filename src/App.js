@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from './components/Header/Header';
 import { getMatches } from './api';
+import Footer from './components/Footer/Footer';
 
 function App() {
-  // getMatches('FINISHED');
   return (
     <React.Fragment>
       <Header />
+      <Footer />
     </React.Fragment>
   );
 }
