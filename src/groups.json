@@ -1,0 +1,12 @@
+[
+  {
+    "id": 0,
+    "team": "Italy",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/ITA.png?imwidth=158",
+    "games": 3,
+    "goals scored": 7,
+    "goals recived": 0,
+    "score": 9,
+    "group": "Group A"
+  }
+]
