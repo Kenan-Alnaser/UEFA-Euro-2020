@@ -1,18 +1,22 @@
 [
   {
     "id": 0,
-    "name": "Home"
+    "name": "Home",
+    "target": "#home"
   },
   {
     "id": 1,
-    "name": "Groups"
+    "name": "Groups",
+    "target": "#groups"
   },
   {
     "id": 2,
-    "name": "Teams"
+    "name": "Teams",
+    "target": "#teams"
   },
   {
     "id": 3,
-    "name": "Play-Off"
+    "name": "Play-Off",
+    "target": "#play-off"
   }
 ]
