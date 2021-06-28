@@ -1,0 +1,33 @@
+@import "../../../sass/main";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  width: 18vw;
+  border: 1px solid #ffffff;
+  background-color: $red;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  border-radius: 15%;
+  margin: 10%;
+}
+
+.flag {
+  margin: 0 6%;
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.input {
+  width: 30px;
+  text-align: center;
+}
+
+.colon {
+  color: white;
+  font-size: 20px;
+}

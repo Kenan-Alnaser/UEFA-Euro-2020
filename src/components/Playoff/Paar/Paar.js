@@ -1,10 +1,12 @@
 import React from 'react';
 
+import styles from './paar.module.scss';
+
 const state = {
   round16: [
     {
-      homeTeam: 'Team1',
-      awayTeam: 'Team2',
+      homeTeam: 'Germany',
+      awayTeam: 'Italy',
       homeScore: 2,
       awayScore: 0,
     },
@@ -21,11 +23,25 @@ const state = {
 };
 
 const Paar = ({ homeTeam, awayTeam }) => {
+  const { container, flag, input, colon } = styles;
   return (
-    <div>
-      {state.round16.map((el, i) => (
-        <p>{JSON.stringify(el)}</p>
-      ))}
+    <div className={container}>
+      <img
+        src="https://www.uefa.com/imgml/flags/70x70/CRO.png?imwidth=276"
+        className={flag}
+        alt={'flag'}
+      />
+      <input className={input} />
+      <p className={colon}>:</p>
+      <input className={input} />
+      <img
+        src="https://www.uefa.com/imgml/flags/70x70/ESP.png?imwidth=280"
+        className={flag}
+        alt={'flag'}
+      />
+      {/*{state.round16.map((el, i) => (*/}
+      {/*  <p>{JSON.stringify(el)}</p>*/}
+      {/*))}*/}
     </div>
   );
 };
