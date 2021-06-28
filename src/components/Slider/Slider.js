@@ -17,6 +17,10 @@ const Slider = () => {
   function nextSlide(n) {
     displaySlides((slide_index += n));
 
+    // function currentSlide(n) {
+    //   displaySlides((slide_index = n));
+    // }
+
     function displaySlides(n) {
       let i;
       let slides = document.getElementsByClassName('showSlide');
