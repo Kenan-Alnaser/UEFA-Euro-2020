@@ -1,6 +1,11 @@
 import React from 'react';
 
 const Slider = () => {
+  let slide_index = 1;
+  displaySlides(slide_index);
+  function nextSlide(n) {
+    displaySlides((slide_index += n));
+  }
   return (
     <React.Fragment>
       <div class="slidercontainer">
@@ -22,10 +27,10 @@ const Slider = () => {
           <div class="content">Lorem ipsum dolor sit amet</div>
         </div>
         {/* <!-- Navigation arrows -->   */}
-        <a class="left" onclick="nextSlide(-1)">
+        <a class="left" onclick={nextSlide(-1)}>
           ❮
         </a>
-        <a class="right" onclick="nextSlide(1)">
+        <a class="right" onclick={nextSlide(1)}>
           ❯
         </a>
       </div>
