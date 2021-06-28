@@ -2,7 +2,7 @@ import React from 'react';
 
 const Slider = () => {
   let slide_index = 1;
-  displaySlides(slide_index);
+  //   displaySlides(slide_index);
   function nextSlide(n) {
     displaySlides((slide_index += n));
   }
