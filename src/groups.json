@@ -38,5 +38,45 @@
     "goals recived": 7,
     "score": 0,
     "group": "Group A"
+  },
+  {
+    "id": 4,
+    "team": "Belgium",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/BEL.png?imwidth=158",
+    "games": 3,
+    "goals scored": 6,
+    "goals recived": 0,
+    "score": 9,
+    "group": "Group B"
+  },
+  {
+    "id": 5,
+    "team": "Denmark",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/DEN.png?imwidth=158",
+    "games": 3,
+    "goals scored": 1,
+    "goals recived": 0,
+    "score": 3,
+    "group": "Group B"
+  },
+  {
+    "id": 6,
+    "team": "Finland",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/FIN.png?imwidth=158",
+    "games": 3,
+    "goals scored": 0,
+    "goals recived": 2,
+    "score": 3,
+    "group": "Group B"
+  },
+  {
+    "id": 7,
+    "team": "Russia",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/RUS.png?imwidth=158",
+    "games": 3,
+    "goals scored": 0,
+    "goals recived": 5,
+    "score": 3,
+    "group": "Group B"
   }
 ]
