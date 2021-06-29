@@ -9,10 +9,7 @@ const Groups = ({ groups }) => {
           <button>{'<'}</button>
           <button>{'>'}</button>
         </div>
-        <div>
-          <h2>Group A</h2>
-          {groups}
-        </div>
+        <div>{groups}</div>
       </div>
     </React.Fragment>
   );
