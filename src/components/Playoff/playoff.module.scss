@@ -1,0 +1,39 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.round16Left {
+  border: 1px solid red;
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.round16Right {
+  border: 1px solid red;
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.quarterFinalsleft {
+  border: 1px solid red;
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.quarterFinalsRight {
+  border: 1px solid red;
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

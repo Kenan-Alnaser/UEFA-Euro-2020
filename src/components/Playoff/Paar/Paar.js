@@ -1,54 +1,35 @@
 import React from 'react';
+import classNames from 'classnames';
 
 import styles from './paar.module.scss';
 
-const state = {
-  round16: [
-    {
-      homeTeam: 'Germany',
-      awayTeam: 'Italy',
-      homeScore: 2,
-      awayScore: 0,
-    },
-    {
-      homeTeam: 'Team3',
-      awayTeam: 'Team4',
-      homeScore: 1,
-      awayScore: 3,
-    },
-  ],
-  quarterFinals: [{ homeTeam: 'Team1', awayTeam: 'Team4', homeScore: 0, awayScore: 1 }],
-  semiFinals: [{ homeTeam: 'Team1', awayTeam: 'Team4', homeScore: 0, awayScore: 1 }],
-  final: [{ homeTeam: '', awayTeam: '', homeScore: '', awayScore: '' }],
-};
+const Paar = (props) => {
+  const { container, red, flag, input, colon } = styles;
 
-const Paar = ({ color }) => {
-  const { container, container_red, flag, input, colon } = styles;
+  const { homeScore, awayScore, homeFlag, awayFlag, winner } = props.data;
 
-  const cls = [];
-  cls.push(container);
-  if (color === 'red') {
-    cls.push(container_red);
+  const clsContainer = classNames(container, styles[`container_${props.color}`]);
+
+  let clsInputHome = classNames(input);
+  let clsInputAway = classNames(input);
+
+  if (winner === 'home') {
+    clsInputHome = classNames(input, styles[`input_win`]);
+    clsInputAway = classNames(input, styles[`input_lose`]);
+  } else if (winner === 'away') {
+    clsInputHome = classNames(input, styles[`input_lose`]);
+    clsInputAway = classNames(input, styles[`input_win`]);
   }
 
+  // const getWinner = () => {};
+
   return (
-    <div className={cls}>
-      <img
-        src="https://www.uefa.com/imgml/flags/70x70/CRO.png?imwidth=276"
-        className={flag}
-        alt={'flag'}
-      />
-      <input className={input} />
+    <div className={clsContainer}>
+      <img src={homeFlag} className={flag} alt={'flag'} />
+      <input className={clsInputHome} onChange={props.setResult} value={homeScore} />
       <p className={colon}>:</p>
-      <input className={input} />
-      <img
-        src="https://www.uefa.com/imgml/flags/70x70/ESP.png?imwidth=280"
-        className={flag}
-        alt={'flag'}
-      />
-      {/*{state.round16.map((el, i) => (*/}
-      {/*  <p>{JSON.stringify(el)}</p>*/}
-      {/*))}*/}
+      <input className={clsInputAway} onChange={props.setResult} value={awayScore} />
+      <img src={awayFlag} className={flag} alt={'flag'} />
     </div>
   );
 };
