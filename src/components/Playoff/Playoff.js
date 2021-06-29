@@ -109,16 +109,45 @@ const Playoff = () => {
       },
       {
         homeTeam: '',
-        homeFlag: '',
+        homeFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
         awayTeam: '',
-        awayFlag: '',
+        awayFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
         homeScore: '-',
         awayScore: '-',
         winner: '-',
       },
     ],
-    semiFinals: [{ homeTeam: 'Team1', awayTeam: 'Team4', homeScore: 0, awayScore: 1 }],
-    final: [{ homeTeam: '', awayTeam: '', homeScore: '', awayScore: '' }],
+    semiFinals: [
+      {
+        homeTeam: '',
+        homeFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
+        awayTeam: '',
+        awayFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
+        homeScore: '-',
+        awayScore: '-',
+        winner: '-',
+      },
+      {
+        homeTeam: '',
+        homeFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
+        awayTeam: '',
+        awayFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
+        homeScore: '-',
+        awayScore: '-',
+        winner: '-',
+      },
+    ],
+    final: [
+      {
+        homeTeam: '',
+        homeFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
+        awayTeam: '',
+        awayFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
+        homeScore: '-',
+        awayScore: '-',
+        winner: '-',
+      },
+    ],
   };
 
   const [games, setGames] = useState(initState);
@@ -139,9 +168,26 @@ const Playoff = () => {
           index < 2 ? <Paar key={index} data={paar} color="orange" /> : null,
         )}
       </div>
+
+      <div className={styles.center}>
+        <div className={styles.final}>
+          <p className={styles.text}>FINAL</p>
+          <Paar data={games.final[0]} color="green" final />
+        </div>
+        <img
+          className={styles.trophy}
+          src="https://img.uefa.com/imgml/uefacom/euro2020/logo.png"
+          alt={'logo'}
+        />
+        <div className={styles.semiFinals}>
+          <Paar data={games.semiFinals[0]} color="blue" />
+          <Paar data={games.semiFinals[1]} color="blue" />
+        </div>
+      </div>
+
       <div className={styles.quarterFinalsRight}>
         {games.quarterFinals.map((paar, index) =>
-          index < 2 ? <Paar key={index} data={paar} color="orange" /> : null,
+          index >= 2 ? <Paar key={index} data={paar} color="orange" /> : null,
         )}
       </div>
       <div className={styles.round16Right}>

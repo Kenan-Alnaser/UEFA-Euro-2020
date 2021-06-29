@@ -4,11 +4,15 @@ import classNames from 'classnames';
 import styles from './paar.module.scss';
 
 const Paar = (props) => {
-  const { container, red, flag, input, colon } = styles;
+  const { container, flag, input, colon } = styles;
 
   const { homeScore, awayScore, homeFlag, awayFlag, winner } = props.data;
 
-  const clsContainer = classNames(container, styles[`container_${props.color}`]);
+  const clsContainer = classNames(
+    container,
+    styles[`container_${props.color}`],
+    props.final ? styles[`container_final`] : null,
+  );
 
   let clsInputHome = classNames(input);
   let clsInputAway = classNames(input);

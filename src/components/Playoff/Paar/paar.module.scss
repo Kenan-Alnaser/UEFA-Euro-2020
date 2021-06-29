@@ -5,7 +5,7 @@
   justify-content: space-between;
   align-items: center;
   height: 8vh;
-  width: 18vw;
+  width: 15vw;
   border: 1px solid #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   border-radius: 15%;
@@ -17,9 +17,20 @@
   &_orange {
     background-color: $orange;
   }
+
+  &_green {
+    background-color: $green;
+  }
+
+  &_blue {
+    background-color: $dark-blue;
+  }
+
+  &_final {
+    width: 22vw;
+    filter: drop-shadow(10px 5px 5px #ea6565);
+  }
 }
-
-
 
 .flag {
   margin: 0 6%;
@@ -38,6 +49,7 @@
 
   &_lose {
     background-color: #cb6d6d;
+    opacity: .6;
   }
   &_win {
     background-color: #6ab36a;
