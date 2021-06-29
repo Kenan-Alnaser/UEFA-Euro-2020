@@ -18,32 +18,32 @@ function App() {
   const groups = Group.map((obj) => {
     const { id, team, flag, games, goalsscored, goalsrecived, score, group } = obj;
     const goals = goalsscored - goalsrecived;
-    return (
-      <div key={id}>
-        <h3>{group}</h3>
-        <div>
+    if (group === 'Group A')
+      return (
+        <div key={id}>
           <div>
             <div>
-              <span>{id + 1} </span>
-              <img src={flag} alt="flag" />
-              <span> {team}</span>
-            </div>
-          </div>
-          <div>
-            <div>
-              <span>P </span>
-              <span> +/- </span>
-              <span> Pts</span>
+              <div>
+                <span>{id + 1} </span>
+                <img src={flag} alt="flag" />
+                <span> {team}</span>
+              </div>
             </div>
             <div>
-              <span>{games} </span>
-              <span> {goals} </span>
-              <span> {score}</span>
+              <div>
+                <span>P </span>
+                <span> +/- </span>
+                <span> Pts</span>
+              </div>
+              <div>
+                <span>{games} </span>
+                <span> {goals} </span>
+                <span> {score}</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    );
+      );
   });
 
   return (
