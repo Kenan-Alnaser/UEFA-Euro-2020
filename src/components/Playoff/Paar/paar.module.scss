@@ -23,7 +23,7 @@
   }
 
   &_blue {
-    background-color: $dark-blue;
+    background-color: #FEBE10;
   }
 
   &_final {
@@ -46,6 +46,7 @@
   height: 30px;
   text-align: center;
   font-size: 20px;
+  border-radius: 30%;
 
   &_lose {
     background-color: #cb6d6d;

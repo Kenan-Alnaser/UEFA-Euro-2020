@@ -65,8 +65,8 @@ const Playoff = () => {
         homeFlag: 'https://www.uefa.com/imgml/flags/70x70/ENG.png?imwidth=276',
         awayTeam: 'Germany',
         awayFlag: 'https://www.uefa.com/imgml/flags/70x70/GER.png?imwidth=276',
-        homeScore: '-',
-        awayScore: '-',
+        homeScore: '',
+        awayScore: '',
         winner: '-',
       },
       {
@@ -74,8 +74,8 @@ const Playoff = () => {
         homeFlag: 'https://www.uefa.com/imgml/flags/70x70/SWE.png?imwidth=276',
         awayTeam: 'Ukraine',
         awayFlag: 'https://www.uefa.com/imgml/flags/70x70/UKR.png?imwidth=276',
-        homeScore: '-',
-        awayScore: '-',
+        homeScore: '',
+        awayScore: '',
         winner: '-',
       },
     ],
@@ -85,8 +85,8 @@ const Playoff = () => {
         homeFlag: 'https://www.uefa.com/imgml/flags/70x70/SUI.png?imwidth=276',
         awayTeam: 'Spain',
         awayFlag: 'https://www.uefa.com/imgml/flags/70x70/ESP.png?imwidth=276',
-        homeScore: '-',
-        awayScore: '-',
+        homeScore: '',
+        awayScore: '',
         winner: '-',
       },
       {
@@ -94,8 +94,8 @@ const Playoff = () => {
         homeFlag: 'https://www.uefa.com/imgml/flags/70x70/BEL.png?imwidth=276',
         awayTeam: 'Italy',
         awayFlag: 'https://www.uefa.com/imgml/flags/70x70/ITA.png?imwidth=276',
-        homeScore: '-',
-        awayScore: '-',
+        homeScore: '',
+        awayScore: '',
         winner: '-',
       },
       {
@@ -103,8 +103,8 @@ const Playoff = () => {
         homeFlag: 'https://www.uefa.com/imgml/flags/70x70/CZE.png?imwidth=276',
         awayTeam: 'Denmark',
         awayFlag: 'https://www.uefa.com/imgml/flags/70x70/DEN.png?imwidth=276',
-        homeScore: '-',
-        awayScore: '-',
+        homeScore: '',
+        awayScore: '',
         winner: '-',
       },
       {
@@ -112,8 +112,8 @@ const Playoff = () => {
         homeFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
         awayTeam: '',
         awayFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
-        homeScore: '-',
-        awayScore: '-',
+        homeScore: '',
+        awayScore: '',
         winner: '-',
       },
     ],
@@ -123,8 +123,8 @@ const Playoff = () => {
         homeFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
         awayTeam: '',
         awayFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
-        homeScore: '-',
-        awayScore: '-',
+        homeScore: '',
+        awayScore: '',
         winner: '-',
       },
       {
@@ -132,8 +132,8 @@ const Playoff = () => {
         homeFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
         awayTeam: '',
         awayFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
-        homeScore: '-',
-        awayScore: '-',
+        homeScore: '',
+        awayScore: '',
         winner: '-',
       },
     ],
@@ -143,8 +143,8 @@ const Playoff = () => {
         homeFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
         awayTeam: '',
         awayFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=65',
-        homeScore: '-',
-        awayScore: '-',
+        homeScore: '',
+        awayScore: '',
         winner: '-',
       },
     ],
@@ -172,7 +172,7 @@ const Playoff = () => {
       <div className={styles.center}>
         <div className={styles.final}>
           <p className={styles.text}>FINAL</p>
-          <Paar data={games.final[0]} color="green" final />
+          <Paar data={games.final[0]} color="blue" final />
         </div>
         <img
           className={styles.trophy}
@@ -180,8 +180,8 @@ const Playoff = () => {
           alt={'logo'}
         />
         <div className={styles.semiFinals}>
-          <Paar data={games.semiFinals[0]} color="blue" />
-          <Paar data={games.semiFinals[1]} color="blue" />
+          <Paar data={games.semiFinals[0]} color="green" />
+          <Paar data={games.semiFinals[1]} color="green" />
         </div>
       </div>
 
