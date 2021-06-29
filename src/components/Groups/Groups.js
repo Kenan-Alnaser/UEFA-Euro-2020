@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Groups = () => {
-  return <React.Fragment>Groups</React.Fragment>;
+const Groups = ({ groups }) => {
+  return <React.Fragment>{groups}</React.Fragment>;
 };
 
 export default Groups;
