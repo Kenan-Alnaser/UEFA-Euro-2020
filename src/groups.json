@@ -198,5 +198,45 @@
     "goals recived": 2,
     "score": 1,
     "group": "Group E"
+  },
+  {
+    "id": 20,
+    "team": "France",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/FRA.png?imwidth=158",
+    "games": 3,
+    "goals scored": 1,
+    "goals recived": 0,
+    "score": 5,
+    "group": "Group F"
+  },
+  {
+    "id": 21,
+    "team": "Germany",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/GER.png?imwidth=158",
+    "games": 3,
+    "goals scored": 1,
+    "goals recived": 0,
+    "score": 4,
+    "group": "Group F"
+  },
+  {
+    "id": 22,
+    "team": "Portugal",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/POR.png?imwidth=158",
+    "games": 3,
+    "goals scored": 1,
+    "goals recived": 0,
+    "score": 4,
+    "group": "Group F"
+  },
+  {
+    "id": 23,
+    "team": "Hungary",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/HUN.png?imwidth=158",
+    "games": 3,
+    "goals scored": 0,
+    "goals recived": 3,
+    "score": 2,
+    "group": "Group F"
   }
 ]
