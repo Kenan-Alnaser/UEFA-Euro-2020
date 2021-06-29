@@ -8,8 +8,8 @@ const LastGames = () => {
 
   return (
     <React.Fragment>
-      <div className="mainSliderContainer">
-        <div className="sliderContainer">
+      <div className="mainLastGamesContainer">
+        <div className="lastGamesContainer">
           <div key={arr.id}>
             <div className="team1">
               <img src={arr[value].flag1} /> <h2>{arr[value].team1}</h2>
