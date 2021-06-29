@@ -10,7 +10,7 @@ const Slider = () => {
     <React.Fragment>
       <div className="mainSliderContainer">
         <div className="sliderContainer">
-          <img src={arr[value].img} alt={arr[value].id} />
+          <img src={arr[value].img} key={arr.id} />
           <h2>{arr[value].content}</h2>
           <button type="button" onClick={() => (value === 0 ? setValue(3) : setValue(value - 1))}>
             <BsArrowLeft />
