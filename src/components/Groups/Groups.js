@@ -1,13 +1,15 @@
 import React from 'react';
-import Group from '../../groups.json';
+// import Group from '../../groups.json';
 
-const Groups = ({ listGroups }) => {
-  const groupName = Group.map((obj) => {
-    const { group } = obj;
-    if (group === 'Group A') {
-      return <h2>{group}</h2>;
-    }
-  });
+const Groups = ({ groups }) => {
+  // const groupName = Group.map((obj) => {
+  //   const { group } = obj;
+  //   // return group.filter((el) => {
+  //   if (group === 'Group A') {
+  //     return <h2>{group}</h2>;
+  //   }
+  //   //});
+  // });
   // groupName.filter((el) => {
   //   return el;
   // });
@@ -20,8 +22,8 @@ const Groups = ({ listGroups }) => {
           <button>{'<'}</button>
           <button>{'>'}</button>
         </div>
-        <h2>{groupName}</h2>
-        <ul>{listGroups}</ul>
+        <h2>Group A</h2>
+        {groups}
       </div>
     </React.Fragment>
   );
