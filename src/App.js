@@ -19,9 +19,9 @@ function App() {
   return (
     <React.Fragment>
       <Header logo={logo} />
+      <Playoff />
       <Slider />
       <Groups />
-      <Playoff />
       <Footer />
     </React.Fragment>
   );

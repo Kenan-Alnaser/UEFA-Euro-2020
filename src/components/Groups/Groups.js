@@ -1,20 +1,9 @@
+// Import area
 import React from 'react';
-// import Group from '../../groups.json';
 import TeamGroup from '../Group/TeamGroup';
 
+// Groups function
 const Groups = ({ groups }) => {
-  // const groupName = Group.map((obj) => {
-  //   const { group } = obj;
-  //   // return group.filter((el) => {
-  //   if (group === 'Group A') {
-  //     return <h2>{group}</h2>;
-  //   }
-  //   //});
-  // });
-  // groupName.filter((el) => {
-  //   return el;
-  // });
-
   return (
     <React.Fragment>
       <div>
@@ -53,4 +42,5 @@ const Groups = ({ groups }) => {
   );
 };
 
+// Groups export
 export default Groups;
