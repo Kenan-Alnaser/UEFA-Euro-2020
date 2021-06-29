@@ -10,11 +10,12 @@ const Slider = () => {
     <React.Fragment>
       <div className="mainSliderContainer">
         <div className="sliderContainer">
-          <img src={arr[value].img} key={arr.id} />
-          <h2>{arr[value].content}</h2>
           <button type="button" onClick={() => (value === 0 ? setValue(3) : setValue(value - 1))}>
             <BsArrowLeft />
           </button>
+          <img src={arr[value].img} key={arr.id} />
+          {/* <h2>{arr[value].content}</h2> */}
+
           <button type="button" onClick={() => (value === 3 ? setValue(0) : setValue(value + 1))}>
             <BsArrowRightShort />
           </button>
