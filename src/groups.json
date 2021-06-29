@@ -118,5 +118,45 @@
     "goals recived": 6,
     "score": 0,
     "group": "Group C"
+  },
+  {
+    "id": 12,
+    "team": "England",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/ENG.png?imwidth=158",
+    "games": 3,
+    "goals scored": 2,
+    "goals recived": 0,
+    "score": 7,
+    "group": "Group D"
+  },
+  {
+    "id": 13,
+    "team": "Croatia",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/CRO.png?imwidth=158",
+    "games": 3,
+    "goals scored": 1,
+    "goals recived": 0,
+    "score": 4,
+    "group": "Group D"
+  },
+  {
+    "id": 14,
+    "team": "Czech Republic",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/CZE.png?imwidth=158",
+    "games": 3,
+    "goals scored": 1,
+    "goals recived": 0,
+    "score": 4,
+    "group": "Group D"
+  },
+  {
+    "id": 15,
+    "team": "Scotland",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/SCO.png?imwidth=158",
+    "games": 3,
+    "goals scored": 0,
+    "goals recived": 4,
+    "score": 1,
+    "group": "Group D"
   }
 ]
