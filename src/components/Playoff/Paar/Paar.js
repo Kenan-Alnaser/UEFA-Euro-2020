@@ -22,10 +22,17 @@ const state = {
   final: [{ homeTeam: '', awayTeam: '', homeScore: '', awayScore: '' }],
 };
 
-const Paar = ({ homeTeam, awayTeam }) => {
-  const { container, flag, input, colon } = styles;
+const Paar = ({ color }) => {
+  const { container, container_red, flag, input, colon } = styles;
+
+  const cls = [];
+  cls.push(container);
+  if (color === 'red') {
+    cls.push(container_red);
+  }
+
   return (
-    <div className={container}>
+    <div className={cls}>
       <img
         src="https://www.uefa.com/imgml/flags/70x70/CRO.png?imwidth=276"
         className={flag}

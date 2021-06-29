@@ -4,7 +4,8 @@ import Paar from './Paar/Paar';
 const Playoff = () => {
   return (
     <div>
-      <Paar />
+      <Paar color="red" />
+      <Paar color="red" />
     </div>
   );
 };
