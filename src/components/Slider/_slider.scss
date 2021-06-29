@@ -2,13 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vh;
+  height: 35vh;
 }
 .sliderContainer {
   width: 50rem;
   height: 35rem;
-  background: rgb(29, 28, 28);
-  color: white;
+  color: black;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -17,8 +16,8 @@
   align-items: center;
 }
 .sliderContainer img {
-  width: 20rem;
-  height: 19rem;
+  width: 50rem;
+  height: 28rem;
   object-fit: cover;
 }
 h2 {
