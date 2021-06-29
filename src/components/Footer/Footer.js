@@ -78,17 +78,17 @@ const Footer = () => {
         <ul className="comp-menu-1">
           <h4 className="giraffe">Developers</h4>
           <li>
-            <a href="https://github.com/Kenan-Alnaser" target="_blank">
+            <a href="https://github.com/ceobit" target="_blank">
               Roman Lebedenko
             </a>
           </li>
           <li>
-            <a href="https://github.com/Kenan-Alnaser" target="_blank">
+            <a href="https://github.com/iulianSta" target="_blank">
               Iulian Stan
             </a>
           </li>
           <li>
-            <a href="https://github.com/Kenan-Alnaser" target="_blank">
+            <a href="https://github.com/AliAbukahil" target="_blank">
               Ali Abukahil
             </a>
           </li>
