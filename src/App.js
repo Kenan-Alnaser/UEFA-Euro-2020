@@ -1,13 +1,24 @@
-// import './App.css';
+import React from 'react';
+import Header from './components/Header/Header';
+import Groups from './components/Groups/Groups';
+import Footer from './components/Footer/Footer';
+import Slider from './components/Slider/Slider';
 import { getMatches } from './api';
-import Playoff from './components/Playoff/Playoff';
+import Logo from './logo.json';
 
 function App() {
-  // getMatches('FINISHED');
+  const logo = Logo.map((obj) => {
+    const { id, logo } = obj;
+    return <img key={id} className="logo" alt="logo" src={logo}></img>;
+  });
   return (
-    <div>
+    <React.Fragment>
+      <Header logo={logo} />
+      <Slider />
+      <Groups />
       <Playoff />
-    </div>
+      <Footer />
+    </React.Fragment>
   );
 }
 

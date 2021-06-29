@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "Home",
+    "target": "#home"
+  },
+  {
+    "id": 1,
+    "name": "Groups",
+    "target": "#groups"
+  },
+  {
+    "id": 2,
+    "name": "Teams",
+    "target": "#teams"
+  },
+  {
+    "id": 3,
+    "name": "Playoff",
+    "target": "#play-off"
+  }
+]
