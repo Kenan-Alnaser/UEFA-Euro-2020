@@ -1,8 +1,13 @@
 import React from "react";
+// Importing Images
+// import background from "../../../public/img/abstract.jpg";
+import logo from "../Footer/logo.png";
+import generic from "../Footer/generic-horizontal.webp";
 
 const Footer = () => {
   return (
     <div className="block">
+      <img className="Stan" src={logo} alt="logo" />
       <div className="block footer__one">
         <ul className="comp-menu-1">
           <li>
@@ -45,8 +50,8 @@ const Footer = () => {
         </ul>
       </div>
       <div className="block footer__three">
-        <h4>ALSO VISIT</h4>
         <ul className="comp-menu-1">
+          <h4 className="giraffe">ALSO VISIT</h4>
           <li>
             <a href="#">UEFA.com</a>
           </li>
@@ -57,20 +62,44 @@ const Footer = () => {
             <a href="#">UEFA Foundation</a>
           </li>
           <li>
-            <a href="https://github.com/Kenan-Alnaser" target="_blank">
-              Store
-            </a>
+            <a href="#">Store</a>
           </li>
         </ul>
       </div>
       <div className="block footer__four">
-        <h4>Tools</h4>
-        <ul>
+        <ul className="comp-menu-1">
+          <h4 className="giraffe">Tools</h4>
           <li>
             <a href="">RSS feeds</a>
           </li>
         </ul>
       </div>
+      <div className="block footer__five">
+        <ul className="comp-menu-1">
+          <h4 className="giraffe">Developers</h4>
+          <li>
+            <a href="https://github.com/Kenan-Alnaser" target="_blank">
+              Roman Lebedenko
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Kenan-Alnaser" target="_blank">
+              Iulian Stan
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Kenan-Alnaser" target="_blank">
+              Ali Abukahil
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Kenan-Alnaser" target="_blank">
+              Kenan Alnaser
+            </a>
+          </li>
+        </ul>
+      </div>
+      <img className="generic" src={generic} alt="generic" />
     </div>
   );
 };
