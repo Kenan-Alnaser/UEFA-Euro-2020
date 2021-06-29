@@ -158,5 +158,45 @@
     "goals recived": 4,
     "score": 1,
     "group": "Group D"
+  },
+  {
+    "id": 16,
+    "team": "Sweden",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/SWE.png?imwidth=158",
+    "games": 3,
+    "goals scored": 2,
+    "goals recived": 0,
+    "score": 7,
+    "group": "Group E"
+  },
+  {
+    "id": 17,
+    "team": "Spain",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/ESP.png?imwidth=158",
+    "games": 3,
+    "goals scored": 5,
+    "goals recived": 0,
+    "score": 5,
+    "group": "Group E"
+  },
+  {
+    "id": 18,
+    "team": "Slovakia",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/SVK.png?imwidth=158",
+    "games": 3,
+    "goals scored": 0,
+    "goals recived": 5,
+    "score": 3,
+    "group": "Group E"
+  },
+  {
+    "id": 19,
+    "team": "Poland",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/POL.png?imwidth=158",
+    "games": 3,
+    "goals scored": 0,
+    "goals recived": 2,
+    "score": 1,
+    "group": "Group E"
   }
 ]
