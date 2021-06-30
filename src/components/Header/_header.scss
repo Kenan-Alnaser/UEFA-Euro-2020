@@ -1,0 +1,27 @@
+// Import area
+@import '../Navbar/navbar';
+
+// Header setup
+.header {
+  width: 100vw;
+  height: 20vh;
+  padding: 0 10rem;
+  background: rgb(0, 155, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 155, 180, 1) 17%,
+    rgba(92, 193, 170, 1) 50%,
+    rgba(0, 167, 196, 1) 79%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // Logo setup
+  .logo {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 2rem 0.5rem 2rem 0.5rem;
+  }
+}
