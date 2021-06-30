@@ -75,6 +75,7 @@ export const initState = {
   ],
   quarterFinals: [
     {
+      id: '1',
       homeTeam: 'Switzerland',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/SUI.png?imwidth=276',
       awayTeam: 'Spain',
@@ -84,6 +85,7 @@ export const initState = {
       winner: '-',
     },
     {
+      id: '2',
       homeTeam: 'Belgium',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/BEL.png?imwidth=276',
       awayTeam: 'Italy',
@@ -93,6 +95,7 @@ export const initState = {
       winner: '-',
     },
     {
+      id: '3',
       homeTeam: 'Czech Republic',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/CZE.png?imwidth=276',
       awayTeam: 'Denmark',
@@ -102,6 +105,7 @@ export const initState = {
       winner: '-',
     },
     {
+      id: '4',
       homeTeam: 'Spain',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/ESP.png?imwidth=276',
       awayTeam: 'Ukraine',
@@ -113,6 +117,7 @@ export const initState = {
   ],
   semiFinals: [
     {
+      id: '5',
       homeTeam: '',
       homeFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=276',
       awayTeam: '',
@@ -122,6 +127,7 @@ export const initState = {
       winner: '-',
     },
     {
+      id: '6',
       homeTeam: '',
       homeFlag: 'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=276',
       awayTeam: '',

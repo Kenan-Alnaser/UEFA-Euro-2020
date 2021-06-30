@@ -9,7 +9,13 @@ const Playoff = () => {
   const [games, setGames] = useState(initState);
 
   const setResult = (e) => {
-    console.log(e);
+    // console.log(e);
+    // if (e[1] === '1') {
+    //   if (e[0] === 'home') {
+    //     console.log('here');
+    //     setGames({ ...games, semiFinals: [...games.semiFinals] });
+    //   }
+    // }
   };
 
   return (
@@ -18,19 +24,21 @@ const Playoff = () => {
       <div className={styles.container}>
         <div className={styles.round16Left}>
           {games.round16.map((paar, index) =>
-            index <= 3 ? <Paar key={index} data={paar} color="red" /> : null,
+            index <= 3 ? <Paar key={index} data={paar} color="red" setResult={setResult} /> : null,
           )}
         </div>
         <div className={styles.quarterFinalsleft}>
           {games.quarterFinals.map((paar, index) =>
-            index < 2 ? <Paar key={index} data={paar} color="orange" /> : null,
+            index < 2 ? (
+              <Paar key={index} data={paar} color="orange" setResult={setResult} />
+            ) : null,
           )}
         </div>
 
         <div className={styles.center}>
           <div className={styles.final}>
             <p className={styles.text}>FINAL</p>
-            <Paar data={games.final[0]} color="blue" final />
+            <Paar data={games.final[0]} color="blue" final setResult={setResult} />
           </div>
           <img
             className={styles.trophy}
@@ -39,18 +47,20 @@ const Playoff = () => {
           />
           <div className={styles.semiFinals}>
             <Paar data={games.semiFinals[0]} color="green" setResult={setResult} />
-            <Paar data={games.semiFinals[1]} color="green" />
+            <Paar data={games.semiFinals[1]} color="green" setResult={setResult} />
           </div>
         </div>
 
         <div className={styles.quarterFinalsRight}>
           {games.quarterFinals.map((paar, index) =>
-            index >= 2 ? <Paar key={index} data={paar} color="orange" /> : null,
+            index >= 2 ? (
+              <Paar key={index} data={paar} color="orange" setResult={setResult} />
+            ) : null,
           )}
         </div>
         <div className={styles.round16Right}>
           {games.round16.map((paar, index) =>
-            index > 3 ? <Paar key={index} data={paar} color="red" /> : null,
+            index > 3 ? <Paar key={index} data={paar} color="red" setResult={setResult} /> : null,
           )}
         </div>
       </div>
@@ -58,12 +68,12 @@ const Playoff = () => {
       <div className={styles.containerMobile}>
         <div className={styles.round16Left}>
           {games.round16.map((paar, index) => (
-            <Paar key={index} data={paar} color="red" />
+            <Paar key={index} data={paar} color="red" setResult={setResult} />
           ))}
         </div>
         <div className={styles.quarterFinalsleft}>
           {games.quarterFinals.map((paar, index) => (
-            <Paar key={index} data={paar} color="orange" />
+            <Paar key={index} data={paar} color="orange" setResult={setResult} />
           ))}
         </div>
         <div className={styles.semiFinals}>
@@ -72,7 +82,7 @@ const Playoff = () => {
         </div>
         <div className={styles.final}>
           <p className={styles.text}>FINAL</p>
-          <Paar data={games.final[0]} color="blue" final />
+          <Paar data={games.final[0]} color="blue" final setResult={setResult} />
         </div>
       </div>
     </>
