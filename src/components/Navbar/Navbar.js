@@ -1,5 +1,5 @@
-import React from "react";
-import Data from "../../menu.json";
+import React from 'react';
+import Data from '../../menu.json';
 
 const Navbar = () => {
   const navMenu = Data.map((obj) => {

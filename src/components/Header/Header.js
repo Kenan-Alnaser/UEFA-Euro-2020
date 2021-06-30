@@ -4,8 +4,10 @@ import Navbar from '../Navbar/Navbar';
 const Header = ({ logo }) => {
   return (
     <React.Fragment>
-      {logo}
-      <Navbar id="home" />
+      <div className="header">
+        {logo}
+        <Navbar id="home" />
+      </div>
     </React.Fragment>
   );
 };
