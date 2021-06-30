@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Groups from './components/Groups/Groups';
 import Footer from './components/Footer/Footer';
 import Slider from './components/Slider/Slider';
+import LastGames from './components/LastGames/LastGames';
 import Playoff from './components/Playoff/Playoff';
 import { getMatches } from './api';
 import Logo from './logo.json';
@@ -19,6 +20,7 @@ function App() {
   return (
     <React.Fragment>
       <Header logo={logo} />
+      <LastGames />
       <Playoff />
       <Slider />
       <Groups />

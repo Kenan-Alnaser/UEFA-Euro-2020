@@ -2,11 +2,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 35vh;
+  height: 75vh;
 }
 .sliderContainer {
-  width: 50rem;
-  height: 35rem;
+  width: 125rem;
+  height: 75rem;
   color: black;
   padding: 10px;
   display: flex;
@@ -15,9 +15,10 @@
   align-items: center;
 }
 .sliderContainer img {
-  width: 50rem;
-  height: 28rem;
+  width: 120rem;
+  height: 70rem;
   object-fit: cover;
+  border-radius: 10px;
 }
 h2 {
   text-transform: capitalize;
@@ -37,6 +38,15 @@ h2 {
   border: none;
   outline: none;
   text-align: center;
+}
+
+.sliderBtn {
+  border-radius: 50%;
+  width: 5rem;
+  height: 10rem;
+  border: none;
+  margin: 1rem;
+  font-size: 5rem;
 }
 button:active {
   transform: scale(1.03);
