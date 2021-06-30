@@ -103,10 +103,9 @@
 
   .round16Left {
     width: 100%;
-    height: 40vh;
+    height: 38vh;
     flex-wrap: wrap;
     align-items: center;
-    border: 1px solid blue;
   }
 
   .quarterFinalsleft {
@@ -124,10 +123,12 @@
   }
 
   .final {
-    width: 80%;
-    position: relative;
-    align-self: center;
-    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: initial;
+    justify-content: center;
+    align-items: center;
   }
 
   .text {
