@@ -4,8 +4,8 @@
 // Header setup
 .header {
   width: 100vw;
-  height: 20vh;
-  padding: 0 10rem;
+  height: 15vh;
+  padding: 0 5rem; //RL
   background: rgb(0, 155, 180);
   background: linear-gradient(
     90deg,
@@ -20,8 +20,8 @@
 
   // Logo setup
   .logo {
-    width: 12rem;
-    height: 12rem;
+    width: 10rem;
+    height: 10rem;
     border-radius: 2rem 0.5rem 2rem 0.5rem;
   }
 }
