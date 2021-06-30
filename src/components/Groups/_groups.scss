@@ -5,7 +5,7 @@
 // Groups setup
 #groups {
   width: 100vw;
-  padding: 2rem 10rem;
+  padding: 2rem 7rem;
   background: rgb(0, 155, 180);
   background: linear-gradient(
     90deg,
@@ -42,12 +42,24 @@
     border: 1px solid grey;
     margin: 2rem 2rem;
     width: 25vw;
+    //width: calc(100% / 3 - 50px);
     border-radius: 1rem;
+    padding: 5%;
 
     li {
+      width: 100%;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
+      border-bottom: 1px solid grey;
+
+      //RL
+      .index {
+        width: 10%;
+        padding-right: 2%;
+        font-size: 2rem;
+        align-self: center;
+      }
 
       img {
         width: 5rem;
@@ -55,21 +67,24 @@
       }
 
       .top {
-        width: 25rem;
-        font-size: 1.5rem;
+        //width: 25rem; RL
+        width: 50%;
         font-weight: bold;
         color: #264653;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
 
         .team {
-          width: 10rem;
+          padding-left: 2%;
+          width: 60%;
+          font-size: 2.5rem;
         }
       }
 
       .bottom {
-        width: 15rem;
+        //width: 15rem; RL
+        width: 60%;
         font-size: 1.5rem;
         font-weight: bold;
         display: flex;
@@ -79,13 +94,15 @@
 
         .up,
         .down {
-          width: 15rem;
-          margin: 1rem;
+          //width: 15rem; RL
+          width: 100%;
+          margin: .5rem;
           text-align: center;
           display: flex;
           justify-content: space-evenly;
           align-items: center;
           color: #264653;
+          font-family: 'Castoro', serif;
         }
 
         .down span {

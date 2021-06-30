@@ -12,7 +12,7 @@ function TeamGroup({ group }) {
         return (
           <li key={id}>
             <div className="top">
-              <span>{index + 1} </span>
+              <span className="index">{index + 1} </span>
               <img src={flag} alt="flag" />
               <span className="team"> {team}</span>
             </div>
@@ -36,5 +36,4 @@ function TeamGroup({ group }) {
   );
 }
 
-// TeamGroup export
 export default TeamGroup;
