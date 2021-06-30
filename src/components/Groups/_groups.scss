@@ -21,6 +21,7 @@
     color: #ffff;
   }
 
+  // H2 setup
   h2 {
     margin: 2rem;
     font-size: 1.5rem;
@@ -28,11 +29,13 @@
     text-align: center;
   }
 
+  // Buttons setup
   button {
     width: 1rem;
     height: 1rem;
   }
 
+  // Team setup
   .team-group {
     display: flex;
     justify-content: center;
@@ -44,11 +47,13 @@
     width: 25vw;
     border-radius: 1rem;
 
+    // List setup
     li {
       display: flex;
       justify-content: space-evenly;
       align-items: center;
 
+      // Flags setup
       img {
         width: 5rem;
         height: 5rem;
