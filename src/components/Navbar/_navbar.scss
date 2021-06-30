@@ -1,0 +1,25 @@
+// Navbar setup
+nav {
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  // List setup
+  li {
+    list-style: none;
+  }
+
+  // Anchor setup
+  a {
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #264653;
+
+    // Hover effect
+    &:hover {
+      color: #fff;
+    }
+  }
+}

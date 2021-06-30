@@ -1,0 +1,97 @@
+// Import area
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+// Groups setup
+#groups {
+  width: 100vw;
+  padding: 2rem 10rem;
+  background: rgb(0, 155, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 155, 180, 1) 17%,
+    rgba(92, 193, 170, 1) 50%,
+    rgba(0, 167, 196, 1) 79%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  // H1 setup
+  h1 {
+    margin: 5rem;
+    font-size: 2.5rem;
+    color: #ffff;
+  }
+
+  h2 {
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: #ffff;
+    text-align: center;
+  }
+
+  button {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .team-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    border: 1px solid grey;
+    margin: 2rem 2rem;
+    width: 25vw;
+    border-radius: 1rem;
+
+    li {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      img {
+        width: 5rem;
+        height: 5rem;
+      }
+
+      .top {
+        width: 25rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #264653;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .team {
+          width: 10rem;
+        }
+      }
+
+      .bottom {
+        width: 15rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .up,
+        .down {
+          width: 15rem;
+          margin: 1rem;
+          text-align: center;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          color: #264653;
+        }
+
+        .down span {
+          padding-right: 1rem;
+        }
+      }
+    }
+  }
+}
