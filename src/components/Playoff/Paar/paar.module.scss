@@ -100,3 +100,40 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 1199.98px) {
+
+  .container {
+    //height: 8vh;
+    //width: 18vw;
+  }
+  .flag {
+    margin: 0 3%;
+    height: 3em;
+    width: 3em;
+  }
+
+  .input {
+    width: 25px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 860px) {
+  .container {
+    width: calc(100% / 2 - 5%);
+  }
+  .flag {
+    margin: 0 3%;
+    height: 5em;
+    width: 5em;
+  }
+
+  .input {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+  }
+}
