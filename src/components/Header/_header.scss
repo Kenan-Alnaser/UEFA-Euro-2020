@@ -25,3 +25,26 @@
     border-radius: 2rem 0.5rem 2rem 0.5rem;
   }
 }
+
+@media (max-width: 767px) {
+  .header {
+    padding: 0.5em;
+    justify-content: space-evenly;
+    .logo {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    width: 100vw;
+    padding: 0.2em;
+    justify-content: space-around;
+    .logo {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+}
