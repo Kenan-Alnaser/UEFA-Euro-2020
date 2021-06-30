@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classNames from 'classnames';
 
 import styles from './paar.module.scss';
@@ -6,7 +6,30 @@ import styles from './paar.module.scss';
 const Paar = (props) => {
   const { container, flag, input, colon } = styles;
 
-  const { homeScore, awayScore, homeFlag, awayFlag, winner } = props.data;
+  const { homeScore, awayScore, homeFlag, awayFlag, winner, id } = props.data;
+
+  const [homeValue, setHomeValue] = useState(homeScore);
+  const [awayValue, setAwayValue] = useState(awayScore);
+
+  const setValue = (e) => {
+    if (e.target.name === 'home') {
+      setHomeValue(e.target.value);
+    } else {
+      setAwayValue(e.target.value);
+    }
+  };
+
+  let currentWin = winner;
+
+  if (homeValue > awayValue) {
+    currentWin = 'home';
+    // props.setResult(homeFlag);
+  }
+
+  if (homeValue < awayValue) {
+    currentWin = 'away';
+    // props.setResult(awayFlag);
+  }
 
   const clsContainer = classNames(
     container,
@@ -17,10 +40,10 @@ const Paar = (props) => {
   let clsInputHome = classNames(input);
   let clsInputAway = classNames(input);
 
-  if (winner === 'home') {
+  if (currentWin === 'home') {
     clsInputHome = classNames(input, styles[`input_win`]);
     clsInputAway = classNames(input, styles[`input_lose`]);
-  } else if (winner === 'away') {
+  } else if (currentWin === 'away') {
     clsInputHome = classNames(input, styles[`input_lose`]);
     clsInputAway = classNames(input, styles[`input_win`]);
   }
@@ -30,9 +53,23 @@ const Paar = (props) => {
   return (
     <div className={clsContainer}>
       <img src={homeFlag} className={flag} alt={'flag'} />
-      <input className={clsInputHome} onChange={props.setResult} value={homeScore} />
+      <input
+        type="number"
+        className={clsInputHome}
+        defaultValue={homeScore}
+        name="home"
+        value={homeValue}
+        onChange={setValue}
+      />
       <p className={colon}>:</p>
-      <input className={clsInputAway} onChange={props.setResult} value={awayScore} />
+      <input
+        type="number"
+        className={clsInputAway}
+        defaultValue={awayScore}
+        name="away"
+        value={awayValue}
+        onChange={setValue}
+      />
       <img src={awayFlag} className={flag} alt={'flag'} />
     </div>
   );

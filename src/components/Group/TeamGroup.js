@@ -5,25 +5,25 @@ import Group from '../../groups.json';
 // TeamGroup function
 function TeamGroup({ group }) {
   return (
-    <div>
+    <div id="teams" className="team-group">
       {Group.filter((el) => el.group === group).map((country, index) => {
         const { id, flag, games, goalsscored, goalsrecived, score, team } = country;
 
         return (
           <li key={id}>
-            <div>
-              <span>{index + 1} </span>
+            <div className="top">
+              <span className="index">{index + 1} </span>
               <img src={flag} alt="flag" />
-              <span> {team}</span>
+              <span className="team"> {team}</span>
             </div>
-            <div>
-              <div>
-                <span>P </span>
+            <div className="bottom">
+              <div className="up">
+                <span> P </span>
                 <span> +/- </span>
                 <span> Pts</span>
               </div>
 
-              <div>
+              <div className="down">
                 <span>{games} </span>
                 <span> {goalsscored - goalsrecived} </span>
                 <span> {score}</span>
@@ -36,5 +36,4 @@ function TeamGroup({ group }) {
   );
 }
 
-// TeamGroup export
 export default TeamGroup;
