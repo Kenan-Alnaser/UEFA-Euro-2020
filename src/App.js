@@ -21,8 +21,8 @@ function App() {
     <React.Fragment>
       <Header logo={logo} />
       <LastGames />
-      <Playoff />
       <Slider />
+      <Playoff />
       <Groups />
       <Footer logo={logo} />
     </React.Fragment>
