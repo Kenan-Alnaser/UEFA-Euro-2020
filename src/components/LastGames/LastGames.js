@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { arr } from './lastGamesData';
 import { BsArrowRightShort } from 'react-icons/bs';
-import { BsArrowLeft } from 'react-icons/bs';
+import { BsArrowLeftShort } from 'react-icons/bs';
 
 const LastGames = () => {
   const [value, setValue] = useState(0);
@@ -34,7 +34,7 @@ const LastGames = () => {
             </div>
           </div>
           <button type="button" onClick={() => (value === 0 ? setValue(3) : setValue(value - 1))}>
-            <BsArrowLeft />
+            <BsArrowLeftShort />
           </button>
           <button type="button" onClick={() => (value === 3 ? setValue(0) : setValue(value + 1))}>
             <BsArrowRightShort />
