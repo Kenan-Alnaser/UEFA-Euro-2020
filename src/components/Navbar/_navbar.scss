@@ -1,4 +1,6 @@
 // Navbar setup
+@import "../../sass/fonts";
+
 nav {
   width: 30vw;
   display: flex;
@@ -12,14 +14,22 @@ nav {
 
   // Anchor setup
   a {
-    font-size: 1.7rem;
+    font-size: 3.7rem;
     font-weight: bold;
     text-decoration: none;
-    color: #264653;
+    //color: #264653; RL
+    color: #fff; //RL
+    letter-spacing: 5px ; //RL
 
     // Hover effect
     &:hover {
-      color: #fff;
+      color: #264653;
     }
+  }
+}
+
+@media (max-width: 1200px) {
+  nav {
+    width: 50vw;
   }
 }

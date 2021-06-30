@@ -15,8 +15,9 @@
   align-items: center;
 }
 .sliderContainer img {
-  width: 120rem;
-  height: 70rem;
+  width: 80%; //RL
+  //height: 70rem; RL
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
 }

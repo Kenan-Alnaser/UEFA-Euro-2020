@@ -6,7 +6,7 @@
   margin: 3rem;
 }
 .gamesContainer {
-  width: 50rem;
+  width: 100rem;
   height: 35rem;
   color: black;
   padding: 10px;
@@ -14,13 +14,14 @@
   border-radius: 5px;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .gamesContainer img {
   object-fit: cover;
   margin: 0 2rem 0 2rem;
 }
 .gamesContainer div {
-  margin-top: 15px;
+  //margin-top: 15px;
 }
 .gamesContainer div button {
   cursor: pointer;
@@ -40,16 +41,62 @@ button:active {
 .match1,
 .match2 {
   display: flex;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.274);
 }
 .match1 {
-  border-top: 1px solid rgba(0, 0, 0, 0.274);
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+  padding-right: 10rem;
+}
+h2 {
+  //margin: 0 2rem 0 3.5rem; RL
+  margin: 0; //RL
+  padding: 0; //RL
 }
 
-h2 {
-  margin: 0 2rem 0 2rem;
+h1{
+  font-size: 4rem;
+  font-weight: normal;
+  color: #264653;
+  margin: 0; //RL
+  padding: 0; //RL
 }
 p {
+  font-size: 5rem;
+  //margin: 0 2rem 0 5rem; //RL
+  margin: 0; //RL
+  padding: 0; //RL
+}
+
+.gamesBtn {
+  border: none;
+  background: transparent;
+  position: relative;
+  bottom: -2rem;
+}
+
+.matches {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gamesContainer div button {
+  font-size: 5rem;
+}
+
+//RL
+.teamDescription {
+  display: flex;
+  //flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
   font-size: 2rem;
-  margin: 0 2rem 0 2rem;
+  color: #264653;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  height: 70%;
 }

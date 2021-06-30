@@ -1,7 +1,7 @@
 export const arr = [
   {
     id: 0,
-    date: 'Tue,29,June,2021',
+    date: '29 June, Thu',
     team1: 'ENG',
     team2: 'GER',
     team3: 'SWE',
@@ -17,7 +17,7 @@ export const arr = [
   },
   {
     id: 1,
-    date: 'Mon,28,June,2021',
+    date: '28 June, Mon',
     team1: 'CRO',
     team2: 'SPA',
     team3: 'FRA',
@@ -33,7 +33,7 @@ export const arr = [
   },
   {
     id: 2,
-    date: 'Sun,27,June,2021',
+    date: '27 June, Sun',
     team1: 'NET',
     team2: 'CZE',
     team3: 'BEL',
@@ -49,7 +49,7 @@ export const arr = [
   },
   {
     id: 3,
-    date: 'Sat,26,June,2021',
+    date: '26 June, Sat',
     team1: 'WAL',
     team2: 'DEN',
     team3: 'ITA',
