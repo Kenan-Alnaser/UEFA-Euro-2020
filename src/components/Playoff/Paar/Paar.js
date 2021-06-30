@@ -32,9 +32,9 @@ const Paar = (props) => {
   return (
     <div className={clsContainer}>
       <img src={homeFlag} className={flag} alt={'flag'} />
-      <input className={clsInputHome} defaultValue={homeScore} name="home" />
+      <input className={clsInputHome} value={homeScore} name="home" />
       <p className={colon}>:</p>
-      <input className={clsInputAway} defaultValue={awayScore} name="away" />
+      <input className={clsInputAway} value={awayScore} name="away" />
       <img src={awayFlag} className={flag} alt={'flag'} />
     </div>
   );
