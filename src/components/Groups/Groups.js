@@ -15,7 +15,7 @@ const Groups = ({ groups }) => {
   return (
     <React.Fragment>
       <div id="groups">
-        <h1>GROUPS</h1>
+        {/*<h1>GROUPS</h1>*/}
         <Slider {...settings}>
           <div>
             <h2>Group A</h2>
