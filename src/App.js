@@ -18,7 +18,7 @@ function App() {
       <Slider />
       <Groups />
       <Playoff />
-      {/*<Footer />*/}
+      <Footer />
     </React.Fragment>
   );
 }
