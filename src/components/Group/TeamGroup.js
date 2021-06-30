@@ -11,19 +11,19 @@ function TeamGroup({ group }) {
 
         return (
           <li key={id}>
-            <div>
+            <div className="top">
               <span>{index + 1} </span>
               <img src={flag} alt="flag" />
-              <span> {team}</span>
+              <span className="team"> {team}</span>
             </div>
-            <div>
-              <div>
-                <span>P </span>
+            <div className="bottom">
+              <div className="up">
+                <span> P </span>
                 <span> +/- </span>
                 <span> Pts</span>
               </div>
 
-              <div>
+              <div className="down">
                 <span>{games} </span>
                 <span> {goalsscored - goalsrecived} </span>
                 <span> {score}</span>

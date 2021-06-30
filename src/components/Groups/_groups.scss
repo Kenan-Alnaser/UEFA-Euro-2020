@@ -24,7 +24,7 @@
   h2 {
     margin: 2rem;
     font-size: 1.5rem;
-    color: #264653;
+    color: #ffff;
     text-align: center;
   }
 
@@ -38,5 +38,60 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #ffff;
+    border: 1px solid grey;
+    margin: 2rem 2rem;
+    width: 25vw;
+    border-radius: 1rem;
+
+    li {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+
+      img {
+        width: 5rem;
+        height: 5rem;
+      }
+
+      .top {
+        width: 25rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #264653;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .team {
+          width: 10rem;
+        }
+      }
+
+      .bottom {
+        width: 15rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .up,
+        .down {
+          width: 15rem;
+          margin: 1rem;
+          text-align: center;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          color: #264653;
+        }
+
+        .down span {
+          padding-right: 1rem;
+        }
+      }
+    }
   }
 }
