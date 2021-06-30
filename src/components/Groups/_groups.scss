@@ -5,7 +5,7 @@
 // Groups setup
 #groups {
   width: 100vw;
-  padding: 2rem 10rem;
+  padding: 2% 10%;
   background: rgb(0, 155, 180);
   background: linear-gradient(
     90deg,
@@ -16,15 +16,15 @@
   );
   // H1 setup
   h1 {
-    margin: 5rem;
-    font-size: 2.5rem;
+    margin: 5%;
+    font-size: 3em;
     color: #ffff;
   }
 
   // H2 setup
   h2 {
-    margin: 2rem;
-    font-size: 1.5rem;
+    margin: 2%;
+    font-size: 2em;
     color: #ffff;
     text-align: center;
   }
@@ -43,7 +43,7 @@
     flex-direction: column;
     background-color: #ffff;
     border: 1px solid grey;
-    margin: 2rem 2rem;
+    margin: 2em 2em;
     width: 25vw;
     border-radius: 1rem;
 
@@ -55,13 +55,13 @@
 
       // Flags setup
       img {
-        width: 5rem;
-        height: 5rem;
+        width: 2.5em;
+        height: 2.5em;
       }
 
       .top {
-        width: 25rem;
-        font-size: 1.5rem;
+        width: 7em;
+        font-size: 1.7em;
         font-weight: bold;
         color: #264653;
         display: flex;
@@ -69,13 +69,13 @@
         align-items: center;
 
         .team {
-          width: 10rem;
+          width: 10%;
         }
       }
 
       .bottom {
-        width: 15rem;
-        font-size: 1.5rem;
+        width: 9em;
+        font-size: 1.7em;
         font-weight: bold;
         display: flex;
         justify-content: center;
@@ -84,8 +84,8 @@
 
         .up,
         .down {
-          width: 15rem;
-          margin: 1rem;
+          width: 6em;
+          margin: 0.8em;
           text-align: center;
           display: flex;
           justify-content: space-evenly;
@@ -94,7 +94,7 @@
         }
 
         .down span {
-          padding-right: 1rem;
+          padding-right: 0.5em;
         }
       }
     }
