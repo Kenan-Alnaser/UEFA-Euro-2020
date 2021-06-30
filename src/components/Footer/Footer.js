@@ -1,13 +1,14 @@
 import React from 'react';
-// Importing Images
-// import background from "../../../public/img/abstract.jpg";
-// import logo from "../Footer/logo.png";
-import generic from '../Footer/generic-horizontal.webp';
+// Importing Images from Jason
+import Generic from '../../generic.json';
 
 const Footer = ({ logo }) => {
+  const genericImage = Generic.map((obj) => {
+    const { id, generic } = obj;
+    return <img key={id} className="generic" alt="generic" src={generic}></img>;
+  });
   return (
     <div className="block">
-      {/* <img className="Stan" src={logo} alt="logo" /> */}
       {logo}
       <div className="block footer__one">
         <ul className="comp-menu-1">
@@ -100,7 +101,7 @@ const Footer = ({ logo }) => {
           </li>
         </ul>
       </div>
-      <img className="generic" src={generic} alt="generic" />
+      {genericImage}
     </div>
   );
 };
