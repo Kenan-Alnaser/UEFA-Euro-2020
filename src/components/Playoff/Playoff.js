@@ -68,7 +68,7 @@ const Playoff = () => {
           )}
         </div>
       </div>
-      // MOBILE
+      {/*MOBILE*/}
       <div className={styles.containerMobile}>
         <div className={styles.round16Left}>
           {games.round16.map((paar, index) => (
