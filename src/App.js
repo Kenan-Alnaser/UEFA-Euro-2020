@@ -1,11 +1,21 @@
-import React from "react";
-import Footer from "./components/Footer/Footer";
+import React from 'react';
+import Header from './components/Header/Header';
+import Groups from './components/Groups/Groups';
+import Footer from './components/Footer/Footer';
+import { getMatches } from './api';
+import Logo from './logo.json';
 
 function App() {
+  const logo = Logo.map((obj) => {
+    const { id, logo } = obj;
+    return <img key={id} className="logo" alt="logo" src={logo}></img>;
+  });
   return (
-    <div className="App">
+    <React.Fragment>
+      <Header logo={logo} />
+      <Groups />
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }
 
