@@ -1,27 +1,40 @@
 import React, { useState } from 'react';
 import { arr } from './lastGamesData';
 import { BsArrowRightShort } from 'react-icons/bs';
-import { BsArrowLeft } from 'react-icons/bs';
+import { BsArrowLeftShort } from 'react-icons/bs';
 
 const LastGames = () => {
   const [value, setValue] = useState(0);
 
   return (
     <React.Fragment>
-      <div className="mainLastGamesContainer">
-        <div className="lastGamesContainer">
+      <div className="mainGamesContainer">
+        <div className="gamesContainer">
           <div key={arr.id}>
-            <div className="team1">
-              <img src={arr[value].flag1} /> <h2>{arr[value].team1}</h2>
-              <p>{arr[value].score1}</p>
+            <h1>{arr[value].date}</h1>
+            <div className="match1">
+              <div className="team1">
+                <img src={arr[value].flag1} /> <h2>{arr[value].team1}</h2>
+                <p>{arr[value].score1}</p>
+              </div>
+              <div className="team2">
+                <img src={arr[value].flag2} /> <h2>{arr[value].team2}</h2>
+                <p>{arr[value].score2}</p>
+              </div>
             </div>
-            <div className="team2">
-              <img src={arr[value].flag2} /> <h2>{arr[value].team2}</h2>
-              <p>{arr[value].score2}</p>
+            <div className="match2">
+              <div className="team3">
+                <img src={arr[value].flag3} /> <h2>{arr[value].team3}</h2>
+                <p>{arr[value].score3}</p>
+              </div>
+              <div className="team4">
+                <img src={arr[value].flag4} /> <h2>{arr[value].team4}</h2>
+                <p>{arr[value].score4}</p>
+              </div>
             </div>
           </div>
           <button type="button" onClick={() => (value === 0 ? setValue(3) : setValue(value - 1))}>
-            <BsArrowLeft />
+            <BsArrowLeftShort />
           </button>
           <button type="button" onClick={() => (value === 3 ? setValue(0) : setValue(value + 1))}>
             <BsArrowRightShort />

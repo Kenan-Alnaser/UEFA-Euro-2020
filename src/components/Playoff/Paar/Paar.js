@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classNames from 'classnames';
 
 import styles from './paar.module.scss';
@@ -7,6 +7,8 @@ const Paar = (props) => {
   const { container, flag, input, colon } = styles;
 
   const { homeScore, awayScore, homeFlag, awayFlag, winner } = props.data;
+
+  const [inputValue, setInputValue] = useState('');
 
   const clsContainer = classNames(
     container,
@@ -30,9 +32,9 @@ const Paar = (props) => {
   return (
     <div className={clsContainer}>
       <img src={homeFlag} className={flag} alt={'flag'} />
-      <input className={clsInputHome} onChange={props.setResult} value={homeScore} />
+      <input className={clsInputHome} value={homeScore} name="home" />
       <p className={colon}>:</p>
-      <input className={clsInputAway} onChange={props.setResult} value={awayScore} />
+      <input className={clsInputAway} value={awayScore} name="away" />
       <img src={awayFlag} className={flag} alt={'flag'} />
     </div>
   );
