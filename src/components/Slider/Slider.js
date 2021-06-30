@@ -1,48 +1,25 @@
-import React from 'react';
-import Slider from '../../slider.json';
+import React, { useState } from 'react';
+import { arr } from './sliderData.js';
+import { BsArrowRightShort } from 'react-icons/bs';
+import { BsArrowLeft } from 'react-icons/bs';
 
 const Slider = () => {
-  const slider = Slider.map((obj) => {
-    const { id, img, content } = obj;
-    return (
-      <div className="showSlide fade" id={id}>
-        <img src={img} />
-        <div className="content">{content}</div>
-      </div>
-    );
-  });
-  let slide_index = 1;
-  displaySlides(slide_index);
+  const [value, setValue] = useState(0);
 
-  function nextSlide(n) {
-    displaySlides((slide_index += n));
-
-    function displaySlides(n) {
-      let i;
-      let slides = document.getElementsByClassName('showSlide');
-      if (n > slides.length) {
-        slide_index = 1;
-      }
-      if (n < 1) {
-        slide_index = slides.length;
-      }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = 'none';
-      }
-      slides[slide_index - 1].style.display = 'block';
-    }
-  }
   return (
     <React.Fragment>
-      <div className="slidercontainer">
-        {slider}
-        {/* <!-- Navigation arrows -->   */}
-        <a className="left" onclick={nextSlide(-1)}>
-          ❮
-        </a>
-        <a className="right" onclick={nextSlide(1)}>
-          ❯
-        </a>
+      <div className="mainSliderContainer">
+        <div className="sliderContainer">
+          <button type="button" onClick={() => (value === 0 ? setValue(3) : setValue(value - 1))}>
+            <BsArrowLeft />
+          </button>
+          <img src={arr[value].img} key={arr.id} />
+          {/* <h2>{arr[value].content}</h2> */}
+
+          <button type="button" onClick={() => (value === 3 ? setValue(0) : setValue(value + 1))}>
+            <BsArrowRightShort />
+          </button>
+        </div>
       </div>
     </React.Fragment>
   );

@@ -1,13 +1,14 @@
-import React from "react";
+import React from 'react';
 // Importing Images
 // import background from "../../../public/img/abstract.jpg";
-import logo from "../Footer/logo.png";
-import generic from "../Footer/generic-horizontal.webp";
+// import logo from "../Footer/logo.png";
+import generic from '../Footer/generic-horizontal.webp';
 
-const Footer = () => {
+const Footer = ({ logo }) => {
   return (
     <div className="block">
-      <img className="Stan" src={logo} alt="logo" />
+      {/* <img className="Stan" src={logo} alt="logo" /> */}
+      {logo}
       <div className="block footer__one">
         <ul className="comp-menu-1">
           <li>
