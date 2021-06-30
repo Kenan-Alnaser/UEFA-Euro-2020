@@ -13,7 +13,7 @@ function App() {
   // Logo
   const logo = Logo.map((obj) => {
     const { id, logo } = obj;
-    return <img key={id} className="logo" alt="logo" src={logo}></img>;
+    return <img key={id} className="Stan logo" alt="logo" src={logo}></img>;
   });
 
   return (
@@ -22,7 +22,7 @@ function App() {
       <Playoff />
       <Slider />
       <Groups />
-      <Footer />
+      <Footer logo={logo} />
     </React.Fragment>
   );
 }
