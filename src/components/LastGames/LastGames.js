@@ -10,8 +10,15 @@ const LastGames = () => {
     <React.Fragment>
       <div className="mainGamesContainer">
         <div className="gamesContainer">
-          <div key={arr.id}>
-            <h1>{arr[value].date}</h1>
+          <h1>{arr[value].date}</h1>
+          <div className="matches" key={arr.id}>
+            <button
+              type="button"
+              className="gamesBtn"
+              onClick={() => (value === 0 ? setValue(3) : setValue(value - 1))}
+            >
+              <BsArrowLeftShort />
+            </button>
             <div className="match1">
               <div className="team1">
                 <img src={arr[value].flag1} /> <h2>{arr[value].team1}</h2>
@@ -32,13 +39,14 @@ const LastGames = () => {
                 <p>{arr[value].score4}</p>
               </div>
             </div>
+            <button
+              type="button"
+              className="gamesBtn"
+              onClick={() => (value === 3 ? setValue(0) : setValue(value + 1))}
+            >
+              <BsArrowRightShort />
+            </button>
           </div>
-          <button type="button" onClick={() => (value === 0 ? setValue(3) : setValue(value - 1))}>
-            <BsArrowLeftShort />
-          </button>
-          <button type="button" onClick={() => (value === 3 ? setValue(0) : setValue(value + 1))}>
-            <BsArrowRightShort />
-          </button>
         </div>
       </div>
     </React.Fragment>
