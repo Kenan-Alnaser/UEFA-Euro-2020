@@ -5,7 +5,7 @@ import Group from '../../groups.json';
 // TeamGroup function
 function TeamGroup({ group }) {
   return (
-    <div>
+    <div id="teams" className="team-group">
       {Group.filter((el) => el.group === group).map((country, index) => {
         const { id, flag, games, goalsscored, goalsrecived, score, team } = country;
 

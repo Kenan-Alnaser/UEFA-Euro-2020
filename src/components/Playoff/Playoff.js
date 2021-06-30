@@ -15,7 +15,7 @@ const Playoff = () => {
   return (
     //DESKTOP
     <>
-      <div className={styles.container}>
+      <div id="playoff" className={styles.container}>
         <div className={styles.round16Left}>
           {games.round16.map((paar, index) =>
             index <= 3 ? <Paar key={index} data={paar} color="red" /> : null,
