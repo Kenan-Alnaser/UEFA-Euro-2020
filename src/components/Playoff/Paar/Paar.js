@@ -23,12 +23,12 @@ const Paar = (props) => {
 
   if (homeValue > awayValue) {
     currentWin = 'home';
-    props.setResult(['home', id]);
+    // props.setResult(homeFlag);
   }
 
   if (homeValue < awayValue) {
     currentWin = 'away';
-    props.setResult(['away', id]);
+    // props.setResult(awayFlag);
   }
 
   const clsContainer = classNames(

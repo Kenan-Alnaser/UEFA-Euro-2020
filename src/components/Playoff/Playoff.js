@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import Paar from './Paar/Paar';
 import { initState } from '../../initState';
@@ -7,16 +7,20 @@ import styles from './playoff.module.scss';
 
 const Playoff = () => {
   const [games, setGames] = useState(initState);
+  const [isChanged, setIsChanged] = useState(
+    'https://img.uefa.com/imgml/TP/teams/logos/teamlogo_fallback.svg?imwidth=276',
+  );
 
-  const setResult = (e) => {
-    // console.log(e);
-    // if (e[1] === '1') {
-    //   if (e[0] === 'home') {
-    //     console.log('here');
-    //     setGames({ ...games, semiFinals: [...games.semiFinals] });
-    //   }
-    // }
+  const setResult = (flag) => {
+    setIsChanged(flag);
   };
+
+  useEffect(() => {
+    setGames({
+      ...games,
+      semiFinals: [...games.semiFinals, (games.semiFinals[0].homeFlag = isChanged)],
+    });
+  }, [isChanged]);
 
   return (
     //DESKTOP
