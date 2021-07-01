@@ -1,0 +1,4 @@
+@import 'mixins';
+
+@include font-face('Jom', './vendors/fonts/Jomhuria-Regular.ttf', 400);
+@include font-face('Castoro', './vendors/fonts/Castoro-Regular.ttf', 400);

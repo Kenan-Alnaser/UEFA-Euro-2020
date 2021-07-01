@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "team": "Italy",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/ITA.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 7,
+    "goalsrecived": 0,
+    "score": 9,
+    "group": "Group A"
+  },
+  {
+    "id": 1,
+    "team": "Wales",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/WAL.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 1,
+    "goalsrecived": 0,
+    "score": 4,
+    "group": "Group A"
+  },
+  {
+    "id": 2,
+    "team": "Switzerland",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/SUI.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 0,
+    "goalsrecived": 1,
+    "score": 4,
+    "group": "Group A"
+  },
+  {
+    "id": 3,
+    "team": "Turkey",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/TUR.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 0,
+    "goalsrecived": 7,
+    "score": 0,
+    "group": "Group A"
+  },
+  {
+    "id": 4,
+    "team": "Belgium",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/BEL.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 6,
+    "goalsrecived": 0,
+    "score": 9,
+    "group": "Group B"
+  },
+  {
+    "id": 5,
+    "team": "Denmark",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/DEN.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 1,
+    "goalsrecived": 0,
+    "score": 3,
+    "group": "Group B"
+  },
+  {
+    "id": 6,
+    "team": "Finland",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/FIN.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 0,
+    "goalsrecived": 2,
+    "score": 3,
+    "group": "Group B"
+  },
+  {
+    "id": 7,
+    "team": "Russia",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/RUS.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 0,
+    "goalsrecived": 5,
+    "score": 3,
+    "group": "Group B"
+  },
+  {
+    "id": 8,
+    "team": "Netherlands",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/NED.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 6,
+    "goalsrecived": 0,
+    "score": 9,
+    "group": "Group C"
+  },
+  {
+    "id": 9,
+    "team": "Austria",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/AUT.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 1,
+    "goalsrecived": 0,
+    "score": 6,
+    "group": "Group C"
+  },
+  {
+    "id": 10,
+    "team": "Ukraine",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/UKR.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 0,
+    "goalsrecived": 1,
+    "score": 3,
+    "group": "Group C"
+  },
+  {
+    "id": 11,
+    "team": "North Macedonia",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/MKD.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 0,
+    "goalsrecived": 6,
+    "score": 0,
+    "group": "Group C"
+  },
+  {
+    "id": 12,
+    "team": "England",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/ENG.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 2,
+    "goalsrecived": 0,
+    "score": 7,
+    "group": "Group D"
+  },
+  {
+    "id": 13,
+    "team": "Croatia",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/CRO.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 1,
+    "goalsrecived": 0,
+    "score": 4,
+    "group": "Group D"
+  },
+  {
+    "id": 14,
+    "team": "Czech Republic",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/CZE.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 1,
+    "goalsrecived": 0,
+    "score": 4,
+    "group": "Group D"
+  },
+  {
+    "id": 15,
+    "team": "Scotland",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/SCO.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 0,
+    "goalsrecived": 4,
+    "score": 1,
+    "group": "Group D"
+  },
+  {
+    "id": 16,
+    "team": "Sweden",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/SWE.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 2,
+    "goalsrecived": 0,
+    "score": 7,
+    "group": "Group E"
+  },
+  {
+    "id": 17,
+    "team": "Spain",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/ESP.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 5,
+    "goalsrecived": 0,
+    "score": 5,
+    "group": "Group E"
+  },
+  {
+    "id": 18,
+    "team": "Slovakia",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/SVK.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 0,
+    "goalsrecived": 5,
+    "score": 3,
+    "group": "Group E"
+  },
+  {
+    "id": 19,
+    "team": "Poland",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/POL.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 0,
+    "goalsrecived": 2,
+    "score": 1,
+    "group": "Group E"
+  },
+  {
+    "id": 20,
+    "team": "France",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/FRA.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 1,
+    "goalsrecived": 0,
+    "score": 5,
+    "group": "Group F"
+  },
+  {
+    "id": 21,
+    "team": "Germany",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/GER.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 1,
+    "goalsrecived": 0,
+    "score": 4,
+    "group": "Group F"
+  },
+  {
+    "id": 22,
+    "team": "Portugal",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/POR.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 1,
+    "goalsrecived": 0,
+    "score": 4,
+    "group": "Group F"
+  },
+  {
+    "id": 23,
+    "team": "Hungary",
+    "flag": "https://www.uefa.com/imgml/flags/70x70/HUN.png?imwidth=158",
+    "games": 3,
+    "goalsscored": 0,
+    "goalsrecived": 3,
+    "score": 2,
+    "group": "Group F"
+  }
+]

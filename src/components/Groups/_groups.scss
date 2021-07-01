@@ -1,0 +1,132 @@
+// Import area
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+// Groups setup
+#groups {
+  width: 100vw;
+  padding: 2rem 7rem;
+  background: rgb(0, 155, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 155, 180, 1) 17%,
+    rgba(92, 193, 170, 1) 50%,
+    rgba(0, 167, 196, 1) 79%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  // H2 setup
+  h2 {
+    margin: 2rem;
+    font-size: 4rem;
+    color: #ffff;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+
+  // Buttons setup
+  button {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  // Team setup
+  .team-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    border: 1px solid grey;
+    margin: 2em 2em;
+    width: 25vw;
+    //width: calc(100% / 3 - 50px);
+    border-radius: 1rem;
+    padding: 5%;
+
+    // List setup
+    li {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      border-bottom: 1px solid grey;
+
+      // RL
+      .index {
+        width: 10%;
+        padding-right: 2%;
+        font-size: 2rem;
+        align-self: center;
+      }
+
+      // Flags setup
+      img {
+        width: 2.5em;
+        height: 2.5em;
+      }
+
+      .top {
+        //width: 25rem; RL
+        width: 50%;
+        color: #264653;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .team {
+          padding-left: 2%;
+          width: 60%;
+          font-size: 2rem;
+        }
+      }
+
+      .bottom {
+        //width: 15rem; RL
+        width: 40%;
+        font-size: 1.3rem;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .up,
+        .down {
+          //width: 15rem; RL
+          width: 100%;
+          margin: 0.5rem;
+          text-align: center;
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          color: #264653;
+          font-family: 'Castoro', serif;
+        }
+
+        .down span {
+          padding-right: 0.5em;
+        }
+      }
+    }
+  }
+}
+
+// Media Query for max. width 767px
+@media (max-width: 767px) {
+  #groups {
+    h2 {
+      font-size: 3em;
+    }
+
+    .team-group {
+      width: auto;
+
+      .top .team,
+      .bottom {
+        font-weight: normal;
+        font-size: 1em;
+      }
+    }
+  }
+}

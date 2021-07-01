@@ -1,6 +1,9 @@
 // Importing scss Files
+@import '../components/Header/header';
 @import '../components/Footer/footer';
 @import '../components/Slider/slider';
+@import '../components/Groups/groups';
+@import '../components/LastGames/lastGames';
 
 $dark-blue: #264653;
 $green: #2a9d8f;
@@ -16,6 +19,7 @@ $orchid: #eea6ea;
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -26,5 +30,6 @@ html {
 }
 
 body {
+  font-family: 'Jom', serif;
   box-sizing: border-box;
 }
