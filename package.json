@@ -2,6 +2,7 @@
   "name": "uefa-euro-2020",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kenan-alnaser.github.io/UEFA-Euro-2020/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
