@@ -4,6 +4,10 @@ A simple one page application for football fans.
 
 You can view older matches as well as see some match offs, pictures, and groups.
 
+# Github page live Link
+
+https://kenan-alnaser.github.io/UEFA-Euro-2020/
+
 # Screenshots
 
 ![Screenshot1](./public/screenshots/Screenshot1.png)
@@ -87,3 +91,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Fonts Jomhuria,Castoro by Google Fonts.
 
 Slider arrow icons by React Icons.
+
+React-slick-carousel package used for groups component.
