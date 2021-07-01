@@ -38,7 +38,7 @@ nav {
 // Media Query for max. width 767px
 @media (max-width: 767px) {
   nav {
-    width: 70vw;
+    width: 100vw;
     justify-content: center;
     li {
       margin: 0 2em;
@@ -54,15 +54,15 @@ nav {
 // Media Query for max. width 480px
 @media (max-width: 480px) {
   nav {
-    width: 50vw;
+    width: 100vw;
     justify-content: center;
     li {
       margin: 0 0.5em;
     }
 
     a {
-      font-size: 1.5em;
-      font-weight: lighter;
+      font-size: 1.8em;
+      font-weight: normal;
     }
   }
 }
