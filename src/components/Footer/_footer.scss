@@ -51,130 +51,23 @@
 
 //responsive web design section Media query 481
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 700px) {
   .block {
-    min-height: 30vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    // .footer__one {
-    //   display: flex;
-    //   margin-top: 2rem;
-    //   width: 25rem;
-    //   min-height: 18rem;
-    //   font-size: 1.9rem;
-    //   left: rem;
-    //   bottom: 15rem;
-    // }
-    // .footer__two {
-    //   left: 40rem;
-    //   bottom: 32rem;
-    //   display: flex;
-    //   width: 18rem;
-    //   min-height: 18rem;
-    //   width: 15rem;
-    //   font-size: 1.9rem;
-    // }
-    // .footer__three {
-    //   // background-color: hotpink;
-    //   display: flex;
-    //   width: 18rem;
-    //   min-height: 18rem;
-    //   bottom: 31rem;
-    //   font-size: 1.9rem;
-    //   left: 15rem;
-    // }
-    // .footer__four {
-    //   // background-color: indianred;
-    //   display: flex;
-    //   bottom: 50rem;
-    //   width: 15rem;
-    //   min-height: 12rem;
-    //   left: 40rem;
-    //   font-size: 1.9rem;
-    // }
-    // .footer__five {
-    //   left: 20rem;
-    //   width: 30rem;
-    //   min-height: 15rem;
-    //   top: 45rem;
-    //   font-size: 2rem;
-    //   position: absolute;
-    // }
+    padding: 2% 1%;
+    font-size: 1.2rem;
   }
+}
 
+@media screen and (max-width: 560px) {
   .Stan {
-    max-width: 15rem;
-    margin-top: 5rem;
-    margin-left: 15rem;
-  }
-
-  .generic {
     display: none;
   }
 }
 
-//responsive web design section Media query 767px
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 400px) {
   .block {
-    min-height: 30vh;
-    display: block;
-
-    .footer__one {
-      display: flex;
-      margin-top: 2rem;
-      width: 25rem;
-      min-height: 18rem;
-      font-size: 1.9rem;
-      left: 12rem;
-      bottom: 15rem;
-    }
-    .footer__two {
-      left: 40rem;
-      bottom: 32rem;
-      display: flex;
-      width: 18rem;
-      min-height: 18rem;
-      width: 15rem;
-      font-size: 1.9rem;
-    }
-    .footer__three {
-      // background-color: hotpink;
-      display: flex;
-      width: 18rem;
-      min-height: 18rem;
-      bottom: 31rem;
-      font-size: 1.9rem;
-      left: 15rem;
-    }
-    .footer__four {
-      // background-color: indianred;
-      display: flex;
-      bottom: 50rem;
-      width: 15rem;
-      min-height: 12rem;
-      left: 40rem;
-      font-size: 1.9rem;
-    }
-    .footer__five {
-      left: 25rem;
-      width: 30rem;
-      min-height: 15rem;
-      bottom: 45rem;
-      font-size: 2rem;
-    }
-  }
-
-  .Stan {
-    max-width: 15rem;
-    margin-top: 5rem;
-    margin-left: 15rem;
-  }
-
-  .generic {
-    display: none;
+    flex-wrap: wrap;
+    min-height: 20vh;
+    font-size: 1.2rem;
   }
 }

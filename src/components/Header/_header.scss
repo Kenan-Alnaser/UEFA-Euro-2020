@@ -26,25 +26,34 @@
   }
 }
 
+// Media Query for max. width 767px
 @media (max-width: 767px) {
   .header {
+    width: 100vw;
+    height: 30vh;
     padding: 0.5em;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-direction: column;
     .logo {
-      width: 5rem;
-      height: 5rem;
+      width: 6rem;
+      height: 6rem;
+      margin-bottom: 2em;
     }
   }
 }
 
+// Media Query for max. width 480px
 @media (max-width: 480px) {
   .header {
     width: 100vw;
-    padding: 0.2em;
-    justify-content: space-around;
+    height: 50vw;
+    padding: 1em;
+    justify-content: center;
+    flex-direction: column;
     .logo {
-      width: 5rem;
-      height: 5rem;
+      width: 8rem;
+      height: 8rem;
+      margin-bottom: 2em;
     }
   }
 }
