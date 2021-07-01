@@ -5,11 +5,15 @@ import TeamGroup from '../Group/TeamGroup';
 
 // Groups function
 const Groups = ({ groups }) => {
+  const ismobile = window.matchMedia('(max-width: 768px)').matches;
+
+  let slidesToShow = ismobile ? 1 : 3;
+
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: slidesToShow,
     slidesToScroll: 1,
   };
   return (
