@@ -42,11 +42,14 @@
 @media (max-width: 480px) {
   .header {
     width: 100vw;
-    padding: 0.2em;
-    justify-content: space-around;
+    height: 50vw;
+    padding: 1em;
+    justify-content: center;
+    flex-direction: column;
     .logo {
-      width: 5rem;
-      height: 5rem;
+      width: 8rem;
+      height: 8rem;
+      margin-bottom: 2em;
     }
   }
 }
