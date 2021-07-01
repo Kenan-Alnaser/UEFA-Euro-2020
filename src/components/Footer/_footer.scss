@@ -4,21 +4,12 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-<<<<<<< HEAD
-  font-size: 1.5rem;
-  min-height: 70vh;
-  padding: 0% 5%;
-  background-color: #2a9d8f;
-  position: relative;
-  letter-spacing: 2px; //RL;
-=======
   font-size: 1.6rem;
   min-height: 40vh;
   padding: 2% 4%;
   background-color: #2a9d8f;
   position: relative;
   //letter-spacing: 2px;//RL;
->>>>>>> 9dba4db86c8169535d08fb42aae042a143b73262
 
   // Logo styles
   .Stan {
@@ -62,52 +53,62 @@
 
 @media screen and (max-width: 481px) {
   .block {
-    max-height: 50vh;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-    display: block;
-
-    .footer__one {
-      margin-top: 2rem;
-      width: 16rem;
-      min-height: 14rem;
-    }
-    .footer__two {
-      // background-color: green;
-      left: 10rem;
-      bottom: 14rem;
-      display: flex;
-      width: 18rem;
-      min-height: 10rem;
-      width: 15rem;
-    }
-    .footer__three {
-      // background-color: hotpink;
-      display: flex;
-      width: 15rem;
-      min-height: 14rem;
-      bottom: 9rem;
-    }
-    .footer__four {
-      // background-color: indianred;
-      display: flex;
-      bottom: 20rem;
-      width: 15rem;
-      min-height: 10rem;
-      left: 19rem;
-    }
-    .footer__five {
-      // background-color: indigo;
-      bottom: 5rem;
-      left: 8rem;
-      width: 18rem;
-      min-height: 11rem;
-      bottom: 15rem;
-    }
+    // .footer__one {
+    //   display: flex;
+    //   margin-top: 2rem;
+    //   width: 25rem;
+    //   min-height: 18rem;
+    //   font-size: 1.9rem;
+    //   left: rem;
+    //   bottom: 15rem;
+    // }
+    // .footer__two {
+    //   left: 40rem;
+    //   bottom: 32rem;
+    //   display: flex;
+    //   width: 18rem;
+    //   min-height: 18rem;
+    //   width: 15rem;
+    //   font-size: 1.9rem;
+    // }
+    // .footer__three {
+    //   // background-color: hotpink;
+    //   display: flex;
+    //   width: 18rem;
+    //   min-height: 18rem;
+    //   bottom: 31rem;
+    //   font-size: 1.9rem;
+    //   left: 15rem;
+    // }
+    // .footer__four {
+    //   // background-color: indianred;
+    //   display: flex;
+    //   bottom: 50rem;
+    //   width: 15rem;
+    //   min-height: 12rem;
+    //   left: 40rem;
+    //   font-size: 1.9rem;
+    // }
+    // .footer__five {
+    //   left: 20rem;
+    //   width: 30rem;
+    //   min-height: 15rem;
+    //   top: 45rem;
+    //   font-size: 2rem;
+    //   position: absolute;
+    // }
   }
 
   .Stan {
-    max-width: 10rem;
-    margin-top: 2rem;
+    max-width: 15rem;
+    margin-top: 5rem;
+    margin-left: 15rem;
   }
 
   .generic {
@@ -119,60 +120,57 @@
 
 @media screen and (max-width: 767px) {
   .block {
-    min-height: 50vh;
+    min-height: 30vh;
     display: block;
 
     .footer__one {
       display: flex;
       margin-top: 2rem;
-      // background-color: grey;
       width: 25rem;
       min-height: 18rem;
-      font-size: 2.5rem;
+      font-size: 1.9rem;
       left: 12rem;
+      bottom: 15rem;
     }
     .footer__two {
-      // background-color: green;
       left: 40rem;
-      bottom: 18rem;
+      bottom: 32rem;
       display: flex;
       width: 18rem;
       min-height: 18rem;
       width: 15rem;
-      font-size: 2.5rem;
+      font-size: 1.9rem;
     }
     .footer__three {
       // background-color: hotpink;
       display: flex;
       width: 18rem;
       min-height: 18rem;
-      bottom: 11rem;
-      font-size: 2.5rem;
-      left: 12rem;
+      bottom: 31rem;
+      font-size: 1.9rem;
+      left: 15rem;
     }
     .footer__four {
       // background-color: indianred;
       display: flex;
-      bottom: 33rem;
+      bottom: 50rem;
       width: 15rem;
       min-height: 12rem;
       left: 40rem;
-      font-size: 2.5rem;
+      font-size: 1.9rem;
     }
     .footer__five {
-      // background-color: indigo;
-      bottom: 5rem;
       left: 25rem;
       width: 30rem;
       min-height: 15rem;
-      bottom: 21rem;
-      font-size: 2.5rem;
+      bottom: 45rem;
+      font-size: 2rem;
     }
   }
 
   .Stan {
     max-width: 15rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
     margin-left: 15rem;
   }
 
