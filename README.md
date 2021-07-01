@@ -1,3 +1,16 @@
+# About this App
+
+A simple one page application for football fans.
+
+You can view older matches as well as see some match offs, pictures, and groups.
+
+# Screenshots
+
+![Screenshot1](./public/screenshots/Screenshot1.png)
+![Screenshot2](./public/screenshots/Screenshot2.png)
+![Screenshot3](./public/screenshots/Screenshot3.png)
+![Screenshot4](./public/screenshots/Screenshot4.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +81,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Citations
+
+Fonts Jomhuria,Castoro by Google Fonts.
+
+Slider arrow icons by React Icons.

@@ -1,0 +1,59 @@
+// Import area
+@import '../Navbar/navbar';
+
+// Header setup
+.header {
+  width: 100vw;
+  height: 15vh;
+  padding: 0 5rem; //RL
+  background: rgb(0, 155, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 155, 180, 1) 17%,
+    rgba(92, 193, 170, 1) 50%,
+    rgba(0, 167, 196, 1) 79%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // Logo setup
+  .logo {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 2rem 0.5rem 2rem 0.5rem;
+  }
+}
+
+// Media Query for max. width 767px
+@media (max-width: 767px) {
+  .header {
+    width: 100vw;
+    height: 30vh;
+    padding: 0.5em;
+    justify-content: center;
+    flex-direction: column;
+    .logo {
+      width: 6rem;
+      height: 6rem;
+      margin-bottom: 2em;
+    }
+  }
+}
+
+// Media Query for max. width 480px
+@media (max-width: 480px) {
+  .header {
+    width: 100vw;
+    height: 50vw;
+    padding: 1em;
+    justify-content: center;
+    flex-direction: column;
+    .logo {
+      width: 8rem;
+      height: 8rem;
+      margin-bottom: 2em;
+    }
+  }
+}
