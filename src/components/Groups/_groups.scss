@@ -14,12 +14,6 @@
     rgba(0, 167, 196, 1) 79%,
     rgba(0, 212, 255, 1) 100%
   );
-  // H1 setup
-  h1 {
-    margin: 5%;
-    font-size: 3em;
-    color: #ffff;
-  }
 
   // H2 setup
   h2 {
@@ -75,7 +69,6 @@
       .top {
         //width: 25rem; RL
         width: 50%;
-        font-weight: bold;
         color: #264653;
         display: flex;
         justify-content: space-between;
@@ -84,14 +77,14 @@
         .team {
           padding-left: 2%;
           width: 60%;
-          font-size: 2.5rem;
+          font-size: 2rem;
         }
       }
 
       .bottom {
         //width: 15rem; RL
-        width: 60%;
-        font-size: 1.5rem;
+        width: 40%;
+        font-size: 1.3rem;
         font-weight: bold;
         display: flex;
         justify-content: center;
@@ -114,6 +107,25 @@
         .down span {
           padding-right: 0.5em;
         }
+      }
+    }
+  }
+}
+
+// Media Query for max. width 767px
+@media (max-width: 767px) {
+  #groups {
+    h2 {
+      font-size: 3em;
+    }
+
+    .team-group {
+      width: auto;
+
+      .top .team,
+      .bottom {
+        font-weight: normal;
+        font-size: 1em;
       }
     }
   }

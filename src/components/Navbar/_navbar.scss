@@ -28,12 +28,14 @@ nav {
   }
 }
 
+// Media Query for max. width 1200px
 @media (max-width: 1200px) {
   nav {
     width: 50vw;
   }
 }
 
+// Media Query for max. width 767px
 @media (max-width: 767px) {
   nav {
     width: 70vw;
@@ -49,6 +51,7 @@ nav {
   }
 }
 
+// Media Query for max. width 480px
 @media (max-width: 480px) {
   nav {
     width: 50vw;

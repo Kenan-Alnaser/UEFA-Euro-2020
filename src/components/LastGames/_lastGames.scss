@@ -72,6 +72,10 @@ p {
   position: relative;
   bottom: -2rem;
 }
+.gamesBtn:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
 
 .matches {
   width: 100%;
