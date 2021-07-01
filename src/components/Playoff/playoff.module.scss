@@ -140,3 +140,31 @@
     margin-bottom: 3px;
   }
 }
+
+@media (max-width: 450px) {
+
+  .containerMobile {
+    padding: 10px;
+    width: 100vw;
+    height: auto;
+  }
+
+  .round16Left {
+    width: 100%;
+    height: auto;
+  }
+
+  .quarterFinalsleft {
+    height: auto;
+  }
+
+  .semiFinals {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    & :nth-child(1) {
+      margin: 0;
+    }
+  }
+}
