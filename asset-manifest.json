@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/UEFA-Euro-2020/static/css/main.3bcffe5c.chunk.css",
-    "main.js": "/UEFA-Euro-2020/static/js/main.d0660d1b.chunk.js",
-    "main.js.map": "/UEFA-Euro-2020/static/js/main.d0660d1b.chunk.js.map",
+    "main.css": "/UEFA-Euro-2020/static/css/main.1216db7b.chunk.css",
+    "main.js": "/UEFA-Euro-2020/static/js/main.f7885da5.chunk.js",
+    "main.js.map": "/UEFA-Euro-2020/static/js/main.f7885da5.chunk.js.map",
     "runtime-main.js": "/UEFA-Euro-2020/static/js/runtime-main.d75a62a2.js",
     "runtime-main.js.map": "/UEFA-Euro-2020/static/js/runtime-main.d75a62a2.js.map",
-    "static/css/2.772e6459.chunk.css": "/UEFA-Euro-2020/static/css/2.772e6459.chunk.css",
+    "static/css/2.8a2d112a.chunk.css": "/UEFA-Euro-2020/static/css/2.8a2d112a.chunk.css",
     "static/js/2.e087c813.chunk.js": "/UEFA-Euro-2020/static/js/2.e087c813.chunk.js",
     "static/js/2.e087c813.chunk.js.map": "/UEFA-Euro-2020/static/js/2.e087c813.chunk.js.map",
     "index.html": "/UEFA-Euro-2020/index.html",
-    "static/css/2.772e6459.chunk.css.map": "/UEFA-Euro-2020/static/css/2.772e6459.chunk.css.map",
-    "static/css/main.3bcffe5c.chunk.css.map": "/UEFA-Euro-2020/static/css/main.3bcffe5c.chunk.css.map",
+    "static/css/2.8a2d112a.chunk.css.map": "/UEFA-Euro-2020/static/css/2.8a2d112a.chunk.css.map",
+    "static/css/main.1216db7b.chunk.css.map": "/UEFA-Euro-2020/static/css/main.1216db7b.chunk.css.map",
     "static/js/2.e087c813.chunk.js.LICENSE.txt": "/UEFA-Euro-2020/static/js/2.e087c813.chunk.js.LICENSE.txt",
     "static/media/main.scss": "/UEFA-Euro-2020/static/media/slick.c94f7671.ttf",
     "static/media/up-arrow.b21d1cbc.svg": "/UEFA-Euro-2020/static/media/up-arrow.b21d1cbc.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d75a62a2.js",
-    "static/css/2.772e6459.chunk.css",
+    "static/css/2.8a2d112a.chunk.css",
     "static/js/2.e087c813.chunk.js",
-    "static/css/main.3bcffe5c.chunk.css",
-    "static/js/main.d0660d1b.chunk.js"
+    "static/css/main.1216db7b.chunk.css",
+    "static/js/main.f7885da5.chunk.js"
   ]
 }
