@@ -1,0 +1,2 @@
+(this["webpackJsonpuefa-euro-2020"]=this["webpackJsonpuefa-euro-2020"]||[]).push([[0],{10:function(e,t,n){"use strict";n.r(t);var c=n(1),r=n.n(c),s=n(3),o=n.n(s),u=n(0);var a=function(){return Object(u.jsx)("div",{className:"App"})};n(9);o.a.render(Object(u.jsx)(r.a.StrictMode,{children:Object(u.jsx)(a,{})}),document.getElementById("root"))},9:function(e,t,n){}},[[10,1,2]]]);
+//# sourceMappingURL=main.7f1f3f82.chunk.js.map

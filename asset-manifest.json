@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/UEFA-Euro-2020/static/css/main.5a89c3b8.chunk.css",
+    "main.js": "/UEFA-Euro-2020/static/js/main.7f1f3f82.chunk.js",
+    "main.js.map": "/UEFA-Euro-2020/static/js/main.7f1f3f82.chunk.js.map",
+    "runtime-main.js": "/UEFA-Euro-2020/static/js/runtime-main.d75a62a2.js",
+    "runtime-main.js.map": "/UEFA-Euro-2020/static/js/runtime-main.d75a62a2.js.map",
+    "static/js/2.c77b9a17.chunk.js": "/UEFA-Euro-2020/static/js/2.c77b9a17.chunk.js",
+    "static/js/2.c77b9a17.chunk.js.map": "/UEFA-Euro-2020/static/js/2.c77b9a17.chunk.js.map",
+    "index.html": "/UEFA-Euro-2020/index.html",
+    "static/css/main.5a89c3b8.chunk.css.map": "/UEFA-Euro-2020/static/css/main.5a89c3b8.chunk.css.map",
+    "static/js/2.c77b9a17.chunk.js.LICENSE.txt": "/UEFA-Euro-2020/static/js/2.c77b9a17.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d75a62a2.js",
+    "static/js/2.c77b9a17.chunk.js",
+    "static/css/main.5a89c3b8.chunk.css",
+    "static/js/main.7f1f3f82.chunk.js"
+  ]
+}
