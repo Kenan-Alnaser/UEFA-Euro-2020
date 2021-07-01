@@ -14,12 +14,6 @@
     rgba(0, 167, 196, 1) 79%,
     rgba(0, 212, 255, 1) 100%
   );
-  // H1 setup
-  h1 {
-    margin: 5%;
-    font-size: 3em;
-    color: #ffff;
-  }
 
   // H2 setup
   h2 {
@@ -75,7 +69,6 @@
       .top {
         //width: 25rem; RL
         width: 50%;
-        font-weight: bold;
         color: #264653;
         display: flex;
         justify-content: space-between;
@@ -115,6 +108,19 @@
           padding-right: 0.5em;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #groups {
+    h1 {
+      font-size: 2em;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2em;
     }
   }
 }
