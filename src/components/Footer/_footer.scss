@@ -59,17 +59,15 @@
 }
 
 @media screen and (max-width: 560px) {
-  .Stan {
+  .Stan_logo {
     display: none;
   }
 }
 
 @media screen and (max-width: 400px) {
- .block{
-   flex-wrap: wrap;
-   min-height: 20vh;
-   font-size: 1.2rem;
-
- }
+  .block {
+    flex-wrap: wrap;
+    min-height: 20vh;
+    font-size: 1.2rem;
+  }
 }
-
