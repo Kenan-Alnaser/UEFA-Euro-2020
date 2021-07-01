@@ -56,7 +56,7 @@ const Paar = (props) => {
       <input
         type="number"
         className={clsInputHome}
-        defaultValue={homeScore}
+        // defaultValue={homeScore}
         name="home"
         value={homeValue}
         onChange={setValue}
@@ -65,7 +65,7 @@ const Paar = (props) => {
       <input
         type="number"
         className={clsInputAway}
-        defaultValue={awayScore}
+        // defaultValue={awayScore}
         name="away"
         value={awayValue}
         onChange={setValue}
