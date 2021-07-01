@@ -9,7 +9,7 @@ const Footer = ({ logo }) => {
   });
   return (
     <div className="block">
-      {logo}
+      <div className="Stan_logo">{logo}</div>
       <div className="block footer__one">
         <ul className="comp-menu-1">
           <li>
