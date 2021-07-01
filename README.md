@@ -12,6 +12,20 @@ https://kenan-alnaser.github.io/UEFA-Euro-2020/
 
 ![Screenshot](./public/screenshots/team3project.gif)
 
+# Developers
+
+Kenan Alnaser
+[@Kenan-Alnaser](https://github.com/Kenan-Alnaser)
+
+Roman Lebedenko
+[@ceobit](https://github.com/ceobit)
+
+Iulian Stan
+[@iulianSta](https://github.com/iulianSta)
+
+Ali Abukahil
+[@AliAbukahil](https://github.com/AliAbukahil)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
