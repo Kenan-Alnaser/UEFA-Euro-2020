@@ -77,14 +77,14 @@
         .team {
           padding-left: 2%;
           width: 60%;
-          font-size: 2.5rem;
+          font-size: 2rem;
         }
       }
 
       .bottom {
         //width: 15rem; RL
-        width: 60%;
-        font-size: 1.5rem;
+        width: 40%;
+        font-size: 1.3rem;
         font-weight: bold;
         display: flex;
         justify-content: center;
@@ -112,15 +112,21 @@
   }
 }
 
+// Media Query for max. width 767px
 @media (max-width: 767px) {
   #groups {
-    h1 {
-      font-size: 2em;
-      text-align: center;
+    h2 {
+      font-size: 3em;
     }
 
-    h2 {
-      font-size: 2em;
+    .team-group {
+      width: auto;
+
+      .top .team,
+      .bottom {
+        font-weight: normal;
+        font-size: 1em;
+      }
     }
   }
 }
