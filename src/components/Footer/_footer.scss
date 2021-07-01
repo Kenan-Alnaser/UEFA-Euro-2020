@@ -51,123 +51,25 @@
 
 //responsive web design section Media query 481
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 700px) {
   .block {
-    max-height: 50vh;
-
-    display: block;
-
-    .footer__one {
-      margin-top: 2rem;
-      width: 16rem;
-      min-height: 14rem;
-    }
-    .footer__two {
-      // background-color: green;
-      left: 10rem;
-      bottom: 14rem;
-      display: flex;
-      width: 18rem;
-      min-height: 10rem;
-      width: 15rem;
-    }
-    .footer__three {
-      // background-color: hotpink;
-      display: flex;
-      width: 15rem;
-      min-height: 14rem;
-      bottom: 9rem;
-    }
-    .footer__four {
-      // background-color: indianred;
-      display: flex;
-      bottom: 20rem;
-      width: 15rem;
-      min-height: 10rem;
-      left: 19rem;
-    }
-    .footer__five {
-      // background-color: indigo;
-      bottom: 5rem;
-      left: 8rem;
-      width: 18rem;
-      min-height: 11rem;
-      bottom: 15rem;
-    }
+    padding: 2% 1%;
+    font-size: 1.2rem;
   }
+}
 
+@media screen and (max-width: 560px) {
   .Stan {
-    max-width: 10rem;
-    margin-top: 2rem;
-  }
-
-  .generic {
     display: none;
   }
 }
 
-//responsive web design section Media query 767px
+@media screen and (max-width: 400px) {
+ .block{
+   flex-wrap: wrap;
+   min-height: 18vh;
+   font-size: 1.2rem;
 
-@media screen and (max-width: 767px) {
-  .block {
-    min-height: 50vh;
-    display: block;
-
-    .footer__one {
-      display: flex;
-      margin-top: 2rem;
-      // background-color: grey;
-      width: 25rem;
-      min-height: 18rem;
-      font-size: 2.5rem;
-      left: 12rem;
-    }
-    .footer__two {
-      // background-color: green;
-      left: 40rem;
-      bottom: 18rem;
-      display: flex;
-      width: 18rem;
-      min-height: 18rem;
-      width: 15rem;
-      font-size: 2.5rem;
-    }
-    .footer__three {
-      // background-color: hotpink;
-      display: flex;
-      width: 18rem;
-      min-height: 18rem;
-      bottom: 11rem;
-      font-size: 2.5rem;
-      left: 12rem;
-    }
-    .footer__four {
-      // background-color: indianred;
-      display: flex;
-      bottom: 33rem;
-      width: 15rem;
-      min-height: 12rem;
-      left: 40rem;
-      font-size: 2.5rem;
-    }
-    .footer__five {
-      // background-color: indigo;
-      bottom: 5rem;
-      left: 25rem;
-      width: 30rem;
-      min-height: 15rem;
-      bottom: 21rem;
-      font-size: 2.5rem;
-    }
-  }
-
-  .Stan {
-    max-width: 15rem;
-    margin-top: 2rem;
-    margin-left: 15rem;
-  }
-
-  .generic {
-    display: none;
-  }
+ }
 }
+
