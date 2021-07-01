@@ -92,4 +92,4 @@ Fonts Jomhuria,Castoro by Google Fonts.
 
 Slider arrow icons by React Icons.
 
-React-slick-carousel package used for groups component.
+React-slick-carousel package used for groups matchup component.
