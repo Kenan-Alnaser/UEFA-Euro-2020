@@ -15,7 +15,7 @@ const LastGames = () => {
             <button
               type="button"
               className="gamesBtn"
-              onClick={() => (value === 0 ? setValue(3) : setValue(value - 1))}
+              onClick={() => (value === 0 ? setValue(7) : setValue(value - 1))}
             >
               <BsArrowLeftShort />
             </button>
@@ -60,7 +60,7 @@ const LastGames = () => {
             <button
               type="button"
               className="gamesBtn"
-              onClick={() => (value === 3 ? setValue(0) : setValue(value + 1))}
+              onClick={() => (value === 7 ? setValue(0) : setValue(value + 1))}
             >
               <BsArrowRightShort />
             </button>

@@ -1,6 +1,7 @@
 export const initState = {
   round16: [
     {
+      id: '1',
       homeTeam: 'Wales',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/WAL.png?imwidth=276',
       awayTeam: 'Denmark',
@@ -10,6 +11,7 @@ export const initState = {
       winner: 'away',
     },
     {
+      id: '2',
       homeTeam: 'Italy',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/ITA.png?imwidth=276',
       awayTeam: 'Austria',
@@ -19,6 +21,7 @@ export const initState = {
       winner: 'home',
     },
     {
+      id: '3',
       homeTeam: 'Netherlands',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/NED.png?imwidth=276',
       awayTeam: 'Czech Republic',
@@ -28,6 +31,7 @@ export const initState = {
       winner: 'away',
     },
     {
+      id: '4',
       homeTeam: 'Belgium',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/BEL.png?imwidth=276',
       awayTeam: 'Portugal',
@@ -37,6 +41,7 @@ export const initState = {
       winner: 'home',
     },
     {
+      id: '5',
       homeTeam: 'Croatia',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/CRO.png?imwidth=276',
       awayTeam: 'Spain',
@@ -46,6 +51,7 @@ export const initState = {
       winner: 'away',
     },
     {
+      id: '6',
       homeTeam: 'France',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/FRA.png?imwidth=276',
       awayTeam: 'Switzerland',
@@ -55,6 +61,7 @@ export const initState = {
       winner: 'away',
     },
     {
+      id: '7',
       homeTeam: 'England',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/ENG.png?imwidth=276',
       awayTeam: 'Germany',
@@ -64,6 +71,7 @@ export const initState = {
       winner: 'home',
     },
     {
+      id: '8',
       homeTeam: 'Sweden',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/SWE.png?imwidth=276',
       awayTeam: 'Ukraine',
@@ -117,9 +125,9 @@ export const initState = {
   ],
   semiFinals: [
     {
-      id: '5',
+      id: '1',
       homeTeam: 'Italy',
-      awayFlag: 'https://www.uefa.com/imgml/flags/70x70/DEN.png?imwidth=276',
+      homeFlag: 'https://www.uefa.com/imgml/flags/70x70/ITA.png?imwidth=276',
       awayTeam: 'Spain',
       awayFlag: 'https://www.uefa.com/imgml/flags/70x70/ESP.png?imwidth=276',
       homeScore: 1,
@@ -127,7 +135,7 @@ export const initState = {
       winner: 'home',
     },
     {
-      id: '6',
+      id: '2',
       homeTeam: 'England',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/ENG.png?imwidth=276',
       awayTeam: 'Denmark',
@@ -139,6 +147,7 @@ export const initState = {
   ],
   final: [
     {
+      id: '1',
       homeTeam: 'Italy',
       homeFlag: 'https://www.uefa.com/imgml/flags/70x70/ITA.png?imwidth=276',
       awayTeam: 'England',
