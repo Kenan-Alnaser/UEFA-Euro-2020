@@ -18,7 +18,11 @@ const Playoff = () => {
   useEffect(() => {
     setGames({
       ...games,
-      semiFinals: [...games.semiFinals, (games.semiFinals[0].homeFlag = isChanged)],
+      semiFinals: [
+        ...games.semiFinals,
+        // (games.semiFinals[0].homeFlag = isChanged),
+        // (games.semiFinals[1].awayFlag = isChanged),
+      ],
     });
   }, [isChanged]);
 
@@ -82,7 +86,7 @@ const Playoff = () => {
         </div>
         <div className={styles.semiFinals}>
           <Paar data={games.semiFinals[0]} color="green" setResult={setResult} />
-          <Paar data={games.semiFinals[1]} color="green" />
+          <Paar data={games.semiFinals[1]} color="green" setResult={setResult} />
         </div>
         <div className={styles.final}>
           <p className={styles.text}>FINAL</p>
